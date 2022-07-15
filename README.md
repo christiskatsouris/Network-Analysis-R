@@ -11,7 +11,7 @@
 
 There are various R packages that allow to perform Network Analysis and simulate Adjacency matrices. 
 
-In this teaching page we provide some key examples. In particular, we mainly focus on the aspects of simulating network data as well as the construction of adjacency matrix from simulated data based on the notion of Granger Causality. Furthermore, a second aspect of interest is the notion of 'tail dependency' in graphs or more generally when considering network data. See the paper of [Katsouris (2021)](https://arxiv.org/abs/2112.12031), who introduce a novel risk matrix (or financial connectedness) which is constructed based on risk measures that capture the effects of financial contagion and systemic risk in financial markets.  
+In this teaching page we provide some key examples. In particular, we mainly focus on the aspects of simulating network data as well as the construction of adjacency matrix from simulated data based on the notion of Granger Causality. Furthermore, a second aspect of interest is the notion of 'tail dependency' in graphs or more generally when considering network data. For instance the framework proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031) introduces a network-driven tail risk matrix (or financial connectedness matrix) which is constructed based on risk measures that capture the effects of financial contagion and systemic risk in financial markets (see, also Härdle et al. (2016)). Specifically in financial econometrics an important research question from the newtork analysis perspective are the mechanisms which contribute to the transmission of systemic risk and the spillover effects of financial contagion.  
 
 ```R
 
@@ -193,7 +193,7 @@ On Financial Networks and Time Series Networks:
 - Baruník, J., & Křehlík, T. (2018). Measuring the frequency dynamics of financial connectedness and systemic risk. Journal of Financial Econometrics, 16(2), 271-296.
 - Billio, M., Getmansky, M., Lo, A. W., & Pelizzon, L. (2012). Econometric measures of connectedness and systemic risk in the finance and insurance sectors. Journal of financial economics, 104(3), 535-559.
 - Diebold, F. X., & Yılmaz, K. (2014). On the network topology of variance decompositions: Measuring the connectedness of financial firms. Journal of econometrics, 182(1), 119-134.
-
+- Härdle, W. K., Wang, W., & Yu, L. (2016). Tenet: Tail-event driven network risk. Journal of Econometrics, 192(2), 499-513.
 
 
 
