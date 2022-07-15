@@ -9,7 +9,7 @@
 
 # [B]. Adjacency Matrices and Network Data
 
-There are various R packages that allow to perform Network Analysis and simulate Adjacency matrices. Some examples are provided below. 
+There are various R packages that allow to perform Network Analysis and simulate Adjacency matrices. In this teaching page we provide some key examples. We mainly focus on the aspects of simulating network data and the construction of the adjacency matrix based on Granger networks. Furthermore, a second aspect of interest is the notion of 'tail dependency' in graphs or more generally when considering network data. See the paper of [Katsouris (2021)](https://arxiv.org/abs/2112.12031), who introduce a novel risk matrix (or financial connectedness) which is constructed based on risk measures that capture the effects of financial contagion and systemic risk in financial markets.  
 
 ```R
 
