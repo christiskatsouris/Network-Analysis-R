@@ -1,2 +1,9 @@
 # Network-Analysis-R
-Teaching Page
+
+# [A]. Graph Centrality Measures
+
+
+
+# Reading List
+
+[1] Newman, M. (2018). Networks. Oxford University Press.
