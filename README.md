@@ -89,7 +89,66 @@ sim_data <- data.frame(bank=paste0("b", 1:125),assets=assets,liabilities=liabili
 
 Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence.  
 
+```R
 
+# Install R package
+install.packages("nets")
+library(nets)
+
+N <- 5
+P <- 3
+T <- 1000
+
+A <- array(0,dim=c(N,N,P))
+C <- matrix(0,N,N)
+
+A[,,1] <- 0.7 * diag(N)
+A[,,2] <- 0.2 * diag(N)
+A[1,2,1] <- 0.2
+A[4,3,2] <- 0.2
+
+C <- diag(N)
+C[1,1] <- 2
+C[4,2] <- -0.2
+C[2,4] <- -0.2
+C[1,3] <- -0.1
+C[1,3] <- -0.1
+
+Sig <- solve(C)
+
+L <- t(chol(Sig))
+y <- matrix(0,T,N)
+eps <- rep(0,N)
+
+for( t in (P+1):T )
+{
+  z <- rnorm(N)
+  for( i in 1:N )
+  {
+    eps[i] <- sum( L[i,] * z )
+  }
+  
+  for( l in 1:P )
+  {
+    for( i in 1:N )
+    {
+      y[t,i] <- y[t,i] + sum(A[i,,l] * y[t-l,])
+    }
+  }
+  y[t,] <- y[t,] + eps
+}
+lambda <- c(1,2)
+
+system.time( mdl <- nets(y,P,lambda=lambda*T,verbose=TRUE) )
+mdl
+
+> mdl
+ Time Series Panel Dimension: T=1000 N=5
+ VAR Lags P=1
+ RSS 1.009657 Num Par 8 Lasso Penalty:  1000 2000
+
+
+```
 
 ## References
 
