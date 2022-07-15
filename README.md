@@ -185,7 +185,7 @@ mdl
 
 ## Assignment 1
 
-Using a modelling approach of your choice, simulate network data and obtain the adjacency matrix of the induced graph. Furthermore, consider a suitable for modelling the dependence structre of the time series data under network dependence.  
+Using a modelling approach of your choice, simulate network data and obtain the adjacency matrix of the induced graph. Furthermore, consider a suitable econometric specification for modelling the dependence structre of the time series data under network dependence. Assume that the simulated data generating process is correctly specified.  
 
 ## References
 
