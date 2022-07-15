@@ -18,10 +18,10 @@ install.packages("network")
 library(network)
 
 # Examples of constructing Adjacency Matrices
-num_nodes   <- 10
-sociomatrix <- matrix(round(runif(num_nodes*num_nodes)), nrow = num_nodes, ncol = num_nodes)
+num_nodes      <- 10
+network_matrix <- matrix(round(runif(num_nodes*num_nodes)), nrow = num_nodes, ncol = num_nodes)
 
-> sociomatrix
+> network_matrix
 
       [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
  [1,]    0    0    1    1    0    0    1    1    1     1
