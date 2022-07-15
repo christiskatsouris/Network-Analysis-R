@@ -199,7 +199,7 @@ Using a modelling approach of your choice, simulate network data and obtain the 
 
 ## References
 
-On Financial Networks using Time Series Data:
+On Financial Networks using Times Series Data:
 
 - Allen, F., & Gale, D. (2000). Financial contagion. Journal of political economy, 108(1), 1-33.
 - Acharya, V. V., Pedersen, L. H., Philippon, T., & Richardson, M. (2017). Measuring systemic risk. The review of financial studies, 30(1), 2-47.
