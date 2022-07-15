@@ -87,6 +87,8 @@ sim_data <- data.frame(bank=paste0("b", 1:125),assets=assets,liabilities=liabili
 
 # Example 2
 
+Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence.  
+
 
 
 ## References
