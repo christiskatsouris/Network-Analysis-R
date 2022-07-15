@@ -231,7 +231,9 @@ On Time Series Specifications for Network Data:
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint arXiv:2112.12031.
 - Krackhardt, D. (1988). Predicting with networks: Nonparametric multiple regression analysis of dyadic data. Social networks, 10(4), 359-381.
 
+# [C]. High Dimensional Network Data Analysis 
 
+(Advanced Topics in Modelling High Dimensional Time Series Data) 
 
 # Reading List
 
