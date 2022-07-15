@@ -206,6 +206,13 @@ On Financial Networks and Time Series Networks:
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint arXiv:2112.12031.
 - Yang, C., Chen, Y., Niu, L., & Li, Q. (2014). Cointegration analysis and influence rank—A network approach to global stock markets. Physica A: Statistical Mechanics and its Applications, 400, 168-185.
 
+On Time Series Specifications for network data:
+
+- Ando, T., Greenwood-Nimmo, M., & Shin, Y. (2022). Quantile Connectedness: Modeling Tail Behavior in the Topology of Financial Networks. Management Science, 68(4), 2401-2431.
+- Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
+- Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
+- Xu, X., Wang, W., Shin, Y., & Zheng, C. (2022). Dynamic Network Quantile Regression Model. Journal of Business & Economic Statistics, (just-accepted), 1-36.
+
 # Reading List
 
 [1] Newman, M. (2018). Networks. Oxford University Press.
