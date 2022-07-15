@@ -87,7 +87,7 @@ sim_data <- data.frame(bank=paste0("b", 1:125),assets=assets,liabilities=liabili
 
 ## Example 2
 
-Using the R package ['igraph'](https://cran.r-project.org/web/packages/nets/index.html) construct an adjacency matrix based on Granger Causality network.  
+Using the R package ['igraph'](https://cran.r-project.org/web/packages/nets/index.html) construct an adjacency matrix based on a Granger Causality network.  
 
 ```R
 
@@ -98,7 +98,7 @@ Using the R package ['igraph'](https://cran.r-project.org/web/packages/nets/inde
 
 ## Example 3
 
-Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence.  
+Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence. Notice that the notion of 'network dependence' is not formally mathematically defined in the literature, so currently there is no formal definition (to the best of my knowledge). 
 
 ```R
 
