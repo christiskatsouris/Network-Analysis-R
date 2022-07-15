@@ -121,7 +121,7 @@ V5  0  1  0  1  0
 
 ## Example 3
 
-Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence. Notice that the notion of 'network dependence' is not formally mathematically defined in the literature, so currently there is no formal definition (to the best of my knowledge). 
+Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence. Notice that the notion of 'network dependence' is not formally mathematically defined in the literature, so currently there is no formal definition (to the best of my knowledge). This is an active research field, so many open research questions remain.
 
 ```R
 
@@ -145,7 +145,7 @@ C[1,1]  <- 2
 C[4,2]  <- -0.2
 C[2,4]  <- -0.2
 C[1,3]  <- -0.1
-C[1,3] <- -0.1
+C[1,3]  <- -0.1
 
 Sig <- solve(C)
 L   <- t(chol(Sig))
