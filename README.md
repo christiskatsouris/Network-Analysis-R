@@ -91,7 +91,30 @@ Using the R package ['igraph'](https://cran.r-project.org/web/packages/nets/inde
 
 ```R
 
+# Install R package
+install.packages("nets")
+library(nets)
 
+# estimate a VAR model
+> lambda  <- 0.01
+> system.time( mdl <- nets(y,CN=FALSE,p=P,lambda=lambda*T,verbose=TRUE) )
+
+iter 1 of 1 
+ Iter: 0001 RSS: 6.4447 Pen: 0.0000 Obj: 6.4447 Spars: 1.0000
+ Iter: 0002 RSS: 1.4296 Pen: 0.1151 Obj: 1.5447 Spars: 0.4800 Delta: 6.3879
+ Iter: 0003 RSS: 0.8885 Pen: 0.0257 Obj: 0.9141 Spars: 0.6933 Delta: 0.0126
+ Converged! RSS: 0.8885 Pen: 0.0257 Obj: 0.9141 Spars: 0.6933 Delta: 0.0001
+   user  system elapsed 
+   0.23    0.00    0.25 
+   
+> g.adj.hat <- mdl$g.adj
+> g.adj.hat 
+   V1 V2 V3 V4 V5
+V1  0  1  0  0  0
+V2  1  0  1  1  0
+V3  0  1  0  0  1
+V4  1  0  1  0  1
+V5  0  1  0  1  0
 
 ```
 
@@ -106,29 +129,27 @@ Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.
 install.packages("nets")
 library(nets)
 
-N <- 5
-P <- 3
-T <- 1000
-
-A <- array(0,dim=c(N,N,P))
-C <- matrix(0,N,N)
+N  <- 5
+P  <- 3
+T  <- 1000
+A  <- array(0,dim=c(N,N,P))
+C  <- matrix(0,N,N)
 
 A[,,1]   <- 0.7 * diag(N)
 A[,,2]   <- 0.2 * diag(N)
 A[1,2,1] <- 0.2
 A[4,3,2] <- 0.2
 
-C      <- diag(N)
-C[1,1] <- 2
-C[4,2] <- -0.2
-C[2,4] <- -0.2
-C[1,3] <- -0.1
+C       <- diag(N)
+C[1,1]  <- 2
+C[4,2]  <- -0.2
+C[2,4]  <- -0.2
+C[1,3]  <- -0.1
 C[1,3] <- -0.1
 
 Sig <- solve(C)
-
-L <- t(chol(Sig))
-y <- matrix(0,T,N)
+L   <- t(chol(Sig))
+y   <- matrix(0,T,N)
 eps <- rep(0,N)
 
 for( t in (P+1):T )
