@@ -239,6 +239,8 @@ On Time Series Specifications for Network Data:
 
 [1] Newman, M. (2018). Networks. Oxford University Press.
 
+[2] Bühlmann, P., & Van De Geer, S. (2011). Statistics for high-dimensional data: methods, theory and applications. Springer Science & Business Media. 
+
 # Disclaimer
 
 The author (Christis G. Katsouris) declares no conflicts of interest.
