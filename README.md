@@ -43,7 +43,7 @@ Using the R package ['NetworkRiskMeasures'](https://cran.r-project.org/web/packa
 
 ```R
 
-# Install R packages
+# Install R package
 install.packages("NetworkRiskMeasures")
 library(NetworkRiskMeasuress)
 
