@@ -39,7 +39,7 @@ sociomatrix <- matrix(round(runif(num_nodes*num_nodes)), nrow = num_nodes, ncol 
 
 # Example 1
 
-Using the R package ['NetworkRiskMeasures'](https://cran.r-project.org/web/packages/NetworkRiskMeasures/index.html) simulate a set of variables that represent 
+Using the R package ['NetworkRiskMeasures'](https://cran.r-project.org/web/packages/NetworkRiskMeasures/index.html) simulate a set of variables that represent a financial network. 
 
 ```R
 
@@ -84,6 +84,9 @@ sim_data <- data.frame(bank=paste0("b", 1:125),assets=assets,liabilities=liabili
 10   b10  8.35134980 4.699216e-01  3.3008525  13.321270
 
 ```
+
+# Example 2
+
 
 
 ## References
