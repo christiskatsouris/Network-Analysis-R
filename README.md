@@ -19,9 +19,7 @@ library(network)
 
 # Examples of constructing Adjacency Matrices
 num_nodes   <- 10
-sociomatrix <- matrix(round(runif(num_nodes*num_nodes)), # edge values
-                         nrow = num_nodes, #nrow must be same as ncol
-                         ncol = num_nodes)
+sociomatrix <- matrix(round(runif(num_nodes*num_nodes)), nrow = num_nodes, ncol = num_nodes)
 
 > sociomatrix
 
