@@ -11,7 +11,7 @@
 
 There are various R packages that allow to perform Network Analysis and simulate Adjacency matrices. 
 
-In this teaching page we provide some key examples. In particular, we mainly focus on the aspects of simulating network data as well as the construction of adjacency matrix from simulated data based on the notion of Granger Causality. Furthermore, a second aspect of interest is the notion of 'tail dependency' in graphs or more generally when considering network data. For instance the framework proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031) introduces a network-driven tail risk matrix (or financial connectedness matrix) which is constructed based on risk measures that capture the effects of financial contagion and systemic risk in financial markets (see, also Härdle et al. (2016)). Specifically in financial econometrics an important research question from the newtork analysis perspective is the mechanism which contributes to the transmission of systemic risk and the spillover effects of financial contagion.  
+In this teaching page we provide some key examples. In particular, we mainly focus on the aspects of simulating network data as well as the construction of adjacency matrix from simulated data based on the notion of Granger Causality. Furthermore, a second aspect of interest is the notion of 'tail dependency' in graphs or more generally when considering network data. For instance the framework proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031) introduces a network-driven tail risk matrix (or financial connectedness matrix) which is constructed based on risk measures that capture the effects of financial contagion and systemic risk in financial markets (see, also Härdle et al. (2016)). Specifically in financial econometrics an important research question from the newtork analysis perspective is the mechanism which contributes to the transmission of systemic risk as well as the spillover effects of financial contagion.  
 
 ```R
 
@@ -187,6 +187,7 @@ mdl
 
 On Financial Networks and Time Series Networks:
 
+- Allen, F., & Gale, D. (2000). Financial contagion. Journal of political economy, 108(1), 1-33.
 - Anufriev, M., & Panchenko, V. (2015). Connecting the dots: Econometric methods for uncovering networks with an application to the Australian financial institutions. Journal of Banking & Finance, 61, S241-S255.
 - Barigozzi, M., & Brownlees, C. (2019). Nets: Network estimation for time series. Journal of Applied Econometrics, 34(3), 347-364.
 - Barigozzi, M., & Hallin, M. (2017). A network analysis of the volatility of high dimensional financial series. Journal of the Royal Statistical Society: Series C (Applied Statistics), 66(3), 581-605.
