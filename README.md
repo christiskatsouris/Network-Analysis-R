@@ -217,6 +217,15 @@ On Time Series Specifications for network data:
 
 [1] Newman, M. (2018). Networks. Oxford University Press.
 
+# Disclaimer
+
+The author (Christis G. Katsouris) declares no conflicts of interest.
+
+The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.
+
+Any errors or omissions are the responsibility of the author.
+
+
 # How to Cite a Website
 
 See: https://www.mendeley.com/guides/web-citation-guide/
