@@ -7,7 +7,7 @@
 ## References
 
 
-# [B]. Adjacency Matrices
+# [B]. Adjacency Matrices and Network Data
 
 There are various R packages that allow to perform Network Analysis and simulate Adjacency matrices. Some examples are provided below. 
 
@@ -37,7 +37,7 @@ sociomatrix <- matrix(round(runif(num_nodes*num_nodes)), nrow = num_nodes, ncol 
 
 ```
 
-# Example 1
+## Example 1
 
 Using the R package ['NetworkRiskMeasures'](https://cran.r-project.org/web/packages/NetworkRiskMeasures/index.html) simulate a set of variables that represent a financial network. 
 
@@ -85,7 +85,18 @@ sim_data <- data.frame(bank=paste0("b", 1:125),assets=assets,liabilities=liabili
 
 ```
 
-# Example 2
+## Example 2
+
+Using the R package ['igraph'](https://cran.r-project.org/web/packages/nets/index.html) construct an adjacency matrix based on Granger Causality network.  
+
+```R
+
+
+
+```
+
+
+## Example 3
 
 Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence.  
 
@@ -146,7 +157,6 @@ mdl
  Time Series Panel Dimension: T=1000 N=5
  VAR Lags P=1
  RSS 1.009657 Num Par 8 Lasso Penalty:  1000 2000
-
 
 ```
 
