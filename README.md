@@ -102,3 +102,7 @@ On Financial Networks and Time Series Networks
 # Reading List
 
 [1] Newman, M. (2018). Networks. Oxford University Press.
+
+# How to Cite a Website
+
+See: https://www.mendeley.com/guides/web-citation-guide/
