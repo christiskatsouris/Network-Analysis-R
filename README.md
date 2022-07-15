@@ -200,6 +200,7 @@ Using a modelling approach of your choice, simulate network data and obtain the 
 ## References
 
 On Financial Networks using Times Series Data:
+(Systemic Risk in Financial Markets)
 
 - Allen, F., & Gale, D. (2000). Financial contagion. Journal of political economy, 108(1), 1-33.
 - Acharya, V. V., Pedersen, L. H., Philippon, T., & Richardson, M. (2017). Measuring systemic risk. The review of financial studies, 30(1), 2-47.
@@ -209,6 +210,7 @@ On Financial Networks using Times Series Data:
 - Barigozzi, M., & Brownlees, C. (2019). Nets: Network estimation for time series. Journal of Applied Econometrics, 34(3), 347-364.
 - Barigozzi, M., & Hallin, M. (2017). A network analysis of the volatility of high dimensional financial series. Journal of the Royal Statistical Society: Series C (Applied Statistics), 66(3), 581-605.
 - Baruník, J., & Křehlík, T. (2018). Measuring the frequency dynamics of financial connectedness and systemic risk. Journal of Financial Econometrics, 16(2), 271-296.
+- Borri, N. (2019). Conditional tail-risk in cryptocurrency markets. Journal of Empirical Finance, 50, 1-19.
 - Billio, M., Getmansky, M., Lo, A. W., & Pelizzon, L. (2012). Econometric measures of connectedness and systemic risk in the finance and insurance sectors. Journal of financial economics, 104(3), 535-559.
 - Chen, C. Y. H., Härdle, W. K., & Okhrin, Y. (2019). Tail event driven networks of SIFIs. Journal of Econometrics, 208(1), 282-298.
 - Diebold, F. X., & Yılmaz, K. (2014). On the network topology of variance decompositions: Measuring the connectedness of financial firms. Journal of econometrics, 182(1), 119-134.
