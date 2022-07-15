@@ -4,11 +4,17 @@
 
 
 
+
+Therefore, as we see above there are various measures which capture the main features of the network topology. 
+
 ## Assignment 1
 
 
 
 ## References
+
+- Huang, Q., Zhao, C., Zhang, X., Wang, X., & Yi, D. (2017). Centrality measures in temporal networks with time series analysis. EPL (Europhysics Letters), 118(3), 36001.
+- Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
 
 
 # [B]. Adjacency Matrices and Network Data
