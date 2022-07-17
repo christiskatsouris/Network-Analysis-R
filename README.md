@@ -34,7 +34,7 @@ $$CB_i= \sum_{s \neq t \neq j} \frac{\sigma_{st}(i)}{\sigma_{st}}.$$
 
 ### Leverage centrality. 
 
-Leverage centrality considers the degree of a node relative to its neighbours and is based on the principle that a node in a network is central if its immediate neighbours rely on that node for information\footnote{A node with negative leverage centrality is influenced by its neighbors, as the neighbors connect and interact with far more nodes. A node with positive leverage centrality, on the other hand, influences its neighbors since the neighbors tend to have far fewer connections (e.g., see \cite{vargas2017graph} }). The leverage centrality is computed as 
+Leverage centrality considers the degree of a node relative to its neighbours and is based on the principle that a node in a network is central if its immediate neighbours rely on that node for information\footnote{A node with negative leverage centrality is influenced by its neighbors, as the neighbors connect and interact with far more nodes. A node with positive leverage centrality, on the other hand, influences its neighbors since the neighbors tend to have far fewer connections (see, Vargas (2017)). The leverage centrality is computed as 
 
 $$LC_i =  \frac{1}{d_i} \sum_{i \in N_i } \frac{ d_i - d_j }{ d_i + d_j }.$$
 
@@ -68,9 +68,10 @@ Therefore, as we see above there are various measures which capture the main fea
 ## References
 
 - Katsouris C. (2021). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
+- Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Huang, Q., Zhao, C., Zhang, X., Wang, X., & Yi, D. (2017). Centrality measures in temporal networks with time series analysis. EPL (Europhysics Letters), 118(3), 36001.
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
-
+- Vargas Jr, R., Waldron, A., Sharma, A., Flórez, R., and Narayan, D. A. (2017). A graph theoretic analysis of leverage centrality. AKCE International Journal of Graphs and Combinatorics, 14(3):295–306.
 
 # [B]. Adjacency Matrices and Network Data
 
