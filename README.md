@@ -2,7 +2,7 @@
 
 # [A]. Graph Centrality Measures
 
-To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function. 
+Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as, "What is the most vulnerable to economic shocks node?" or "What is the level of interconnectedness of core versus periphery nodes?". Furthermore, these centrality measures can provide network information related to (a) the properties of local topology\footnote{For example, the weighted characteristic path length measures the average shortest path, from one node to any other node in the network. Thus, it can be interpreted as the shortest number of connections a shock from a node needs to reach another connected node in the network.} via measures such as degree centrality and page rank and (b) global information such as closeness centrality and betweenness centrality. 
 
 ### Katz centrality. 
 
@@ -45,6 +45,8 @@ The eigenvector of node $i$ is equal to the leading eigenvector $\mathbf{v}_i$ a
 $$v_i = \sum_{ j \in N(i) } v_j = \sum A_{ij} v_j.$$
 
 Thus, we can see that the above definition of the eigenvector centrality implies that it depends on both the number of neighbours $|N(i)|$ and the quality of its connections $\mathbf{v}_j$, for $j \in N(i)$.  
+
+To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function.
 
 ```R
 
