@@ -12,6 +12,10 @@ $$K_i = \sum_{j=0}^{\infty} \alpha^j \sum_{i=1}^N \lambda_i^k v_i v_i^{\top} \ma
 
 The benefits of Katz centrality is that it the centrality score of nodes can be decomposed into two components, i.e., the idiosyncratic centrality and the system-related centrality, that is, the centrality passed to it in proportion to how important its neighbours are. Due to the construction of katz centrality of capturing the influence of nodes (i.e., the nodes which a node is connected to) is considered as a robust centrality measure in capturing financial contagion and risk transmission within the network, since we are also capturing the influence of financial institutions due to connectedness induced by the underline network topology. 
 
+### Page rank centrality. 
+
+A modification of the katz centrality is the page rank centrality, which corrects for the contribution of neighbouring nodes on the impact each node has within the network. More specifically, with the eigenvector and katz centrality, there is no distinction between degree centrality and the level of connectedness of these neighbouring nodes. For example, low degree nodes may receive a high score because they are connected to very high degree nodes, even though they may have low degree centrality. Thus page rank centrality scales the contribution of node i's neighbours, $j$, to the centrality of node $i$ by the degree of i. Thus, the page rank centrality is given by
+
 
 ```R
 
