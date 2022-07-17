@@ -4,6 +4,12 @@
 
 To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function. 
 
+###Katz centrality 
+
+Proposed by \cite{katz1953new}, for a symmetric adjacency matrix $\mathbf{A}$ with a vector of centrality scores for the nodes of the network given by
+$$  KC_i(\alpha ) = [ ( \mathbf{I} - \alpha \mathbf{A}^{\top})^{-1} \mathbf{1}  ]_i = \sum_{j=0}^{\infty} \alpha^j \sum_{i=1}^N \lambda_i^k v_i v_i^{\top} \mathbf{1} $$.
+
+
 
 ```R
 
