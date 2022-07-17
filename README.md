@@ -32,15 +32,17 @@ Considered for example, two financial institutions which have large betweenness 
 
 $$CB_i= \sum_{s \neq t \neq j} \frac{\sigma_{st}(i)}{\sigma_{st}}.$$
 
-\textit{Leverage centrality}. Leverage centrality considers the degree of a node relative to its neighbours and is based on the principle that a node in a network is central if its immediate neighbours rely on that node for information\footnote{A node with negative leverage centrality is influenced by its neighbors, as the neighbors connect and interact with far more nodes. A node with positive leverage centrality, on the other hand, influences its neighbors since the neighbors tend to have far fewer connections (e.g., see \cite{vargas2017graph} }). The leverage centrality is computed as 
-\begin{align}
- LC_i =  \frac{1}{d_i} \sum_{i \in \mathcal{N}_i} \frac{ d_i - d_j }{ d_i + d_j } 
-\end{align}
+### Leverage centrality 
 
-\textit{Eigenvector centrality}. The eigenvector of node $i$ is equal to the leading eigenvector $\mathbf{v}_i$ and is computed using the characteristic equation of the adjacency matrix. Thus, the EC is defined
-\begin{align}
- \mathbf{v}_i = \sum_{ j \in N(i) } \mathbf{v}_j = \sum_j A_{ij}  \mathbf{v}_j
-\end{align}
+Leverage centrality considers the degree of a node relative to its neighbours and is based on the principle that a node in a network is central if its immediate neighbours rely on that node for information\footnote{A node with negative leverage centrality is influenced by its neighbors, as the neighbors connect and interact with far more nodes. A node with positive leverage centrality, on the other hand, influences its neighbors since the neighbors tend to have far fewer connections (e.g., see \cite{vargas2017graph} }). The leverage centrality is computed as 
+
+$$LC_i =  \frac{1}{d_i} \sum_{i \in N_i } \frac{ d_i - d_j }{ d_i + d_j }.$$
+
+### Eigenvector centrality 
+
+The eigenvector of node $i$ is equal to the leading eigenvector $\mathbf{v}_i$ and is computed using the characteristic equation of the adjacency matrix. Thus, the EC is defined
+$$ \mathbf{v}_i = \sum_{ j \in N(i) } \mathbf{v}_j = \sum_j A_{ij}  \mathbf{v}_j.$$
+
 Thus, we can see that the above definition of the eigenvector centrality implies that it depends on both the number of neighbours $|N(i)|$ and the quality of its connections $\mathbf{v}_j$, for $j \in N(i)$.  
 
 ```R
