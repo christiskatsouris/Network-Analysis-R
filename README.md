@@ -335,7 +335,6 @@ We begin by focusing on the graphical lasso shrinkage.
 
 
 
-
 ## References
 
 On Time Series Specifications for Network Data:
@@ -347,6 +346,7 @@ On Time Series Specifications for Network Data:
 - Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
 - Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
 - Xu, X., Wang, W., Shin, Y., & Zheng, C. (2022). Dynamic Network Quantile Regression Model. Journal of Business & Economic Statistics, (just-accepted), 1-36.
+- Witten, D. M., Friedman, J. H., & Simon, N. (2011). New insights and faster computations for the graphical lasso. Journal of Computational and Graphical Statistics, 20(4), 892-900.
 
 # Reading List
 
