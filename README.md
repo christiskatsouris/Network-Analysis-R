@@ -111,10 +111,11 @@ Therefore, as we see above there are various centrality measures which capture t
 
 ## Assignment 1
 
-
+Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). 
 
 ## References
 
+- Anufriev, M., & Panchenko, V. (2015). Connecting the dots: Econometric methods for uncovering networks with an application to the Australian financial institutions. Journal of Banking & Finance, 61, S241-S255.
 - Katsouris C. (2021). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Huang, Q., Zhao, C., Zhang, X., Wang, X., & Yi, D. (2017). Centrality measures in temporal networks with time series analysis. EPL (Europhysics Letters), 118(3), 36001.
