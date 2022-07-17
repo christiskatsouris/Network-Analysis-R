@@ -2,7 +2,7 @@
 
 # [A]. Graph Centrality Measures
 
-Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as, "What is the most vulnerable to economic shocks node?" or "What is the level of interconnectedness of core versus periphery nodes?". Furthermore, these centrality measures can provide network information related to (a) the properties of local topology\footnote{For example, the weighted characteristic path length measures the average shortest path, from one node to any other node in the network. Thus, it can be interpreted as the shortest number of connections a shock from a node needs to reach another connected node in the network.} via measures such as degree centrality and page rank and (b) global information such as closeness centrality and betweenness centrality. 
+Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as, "What is the most vulnerable to economic shocks node?" or "What is the level of interconnectedness of core versus periphery nodes?". Furthermore, these centrality measures can provide network information related to (a) the properties of local topology via measures such as degree centrality and page rank and (b) global information such as closeness centrality and betweenness centrality. 
 
 ### Katz centrality. 
 
@@ -18,7 +18,7 @@ A modification of the katz centrality is the page rank centrality, which correct
 
  $$PR_i = \alpha \sum_{j=1}^N A_{ji} \frac{v_j}{d_j} + \beta = \mathbf{\beta}(\mathbf{I} - \alpha\mathbf{D}^{-1} \mathbf{A})^{-1}$$
  
- where $d_j$ the degree centrality of node $j$. 
+ where $d_j$ the degree centrality of node $j$. Notice that the weighted characteristic path length measures the average shortest path, from one node to any other node in the network. Thus, it can be interpreted as the shortest number of connections a shock from a node needs to reach another connected node in the network. 
  
  ### Closeness centrality. 
  
