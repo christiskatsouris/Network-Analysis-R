@@ -66,8 +66,6 @@ For instance we can also construct a function to estimate the leverage centralit
 
 ```R
 
-# 
-
 leverage <- function (A, weighted = TRUE)
 {
   if(nrow(A)!=ncol(A))
