@@ -50,6 +50,10 @@ To obtain Centrality measures from a graph we first need to obtain the adjacency
 
 ```R
 
+# Install R package 
+install.packages("igraph")
+library(igraph)
+
 # Constructing the graph matrix
 G <- as.undirected( graph.adjacency( correlation.matrix, weighted = T) )
 
@@ -59,8 +63,51 @@ closeness.centrality.vector <- as.vector(closeness.centrality.vector)
 
 ```
 
-Therefore, as we see above there are various measures which capture the main features of the network topology. 
 
+```R
+
+# Function to estimate the leverage centrality measure
+
+leverage <- function (A, weighted = TRUE)
+{
+  if(nrow(A)!=ncol(A))
+  {stop("Input not an adjacency matrix")}
+  
+  binarize <- function (A)
+  {
+    bin <- ifelse(A!=0,1,0)
+    row.names(bin) <- colnames(A)
+    colnames(bin) <- colnames(A)
+    
+    return(bin)
+  }
+  
+  if(!weighted)
+  {B<-binarize(A)
+  }else{B<-A}
+  
+  con<-colSums(B)
+  
+  lev<-matrix(1,nrow=nrow(B),ncol=1)
+  
+  for(i in 1:ncol(B))
+  {lev[i]<-(1/con[i])*sum((con[i]-con[which(B[,i]!=0)])/(con[i]+con[which(B[,i]!=0)]))}
+  
+  for(i in 1:nrow(lev))
+    if(is.na(lev[i,]))
+    {lev[i,]<-0}
+  
+  lev <- as.vector(lev)
+  
+  names(lev) <- colnames(A)
+  
+  return(lev)
+}  
+
+```R
+
+
+Therefore, as we see above there are various centrality measures which capture the main features of the network topology. 
 
 
 ## Assignment 1
