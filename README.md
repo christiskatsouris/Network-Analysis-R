@@ -4,7 +4,7 @@
 
 To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function. 
 
-### Katz centrality 
+### Katz centrality. 
 
 Proposed by Katz (1953), for a symmetric adjacency matrix $\mathbf{A}$ with a vector of centrality scores for the nodes of the network given by
 
@@ -20,28 +20,29 @@ A modification of the katz centrality is the page rank centrality, which correct
  
  where $d_j$ the degree centrality of node $j$. 
  
- ### Closeness centrality 
+ ### Closeness centrality. 
  
  t access the centrality of a node at the local neighbourhood level. For example, the larger the closeness centrality of an institution the faster the influence in the other nodes of the network since it requires fewer steps for an impact to reach other nodes. The normalized closeness centrality of a node is computed as
 
 $$CC_i= \frac{N-1}{\sum_{j=1}^N d_{ij} }.$$
 
-### Betweenness centrality 
+### Betweenness centrality. 
 
 Considered for example, two financial institutions which have large betweenness centrality, this implies that the pair is important is the transmission of shocks. It is defined as the ratio of the total number of all shortest paths in the network that go via this node and the number of all other shortest paths that do not pass this node. 
 
 $$CB_i= \sum_{s \neq t \neq j} \frac{\sigma_{st}(i)}{\sigma_{st}}.$$
 
-### Leverage centrality 
+### Leverage centrality. 
 
 Leverage centrality considers the degree of a node relative to its neighbours and is based on the principle that a node in a network is central if its immediate neighbours rely on that node for information\footnote{A node with negative leverage centrality is influenced by its neighbors, as the neighbors connect and interact with far more nodes. A node with positive leverage centrality, on the other hand, influences its neighbors since the neighbors tend to have far fewer connections (e.g., see \cite{vargas2017graph} }). The leverage centrality is computed as 
 
 $$LC_i =  \frac{1}{d_i} \sum_{i \in N_i } \frac{ d_i - d_j }{ d_i + d_j }.$$
 
-### Eigenvector centrality 
+### Eigenvector centrality. 
 
 The eigenvector of node $i$ is equal to the leading eigenvector $\mathbf{v}_i$ and is computed using the characteristic equation of the adjacency matrix. Thus, the EC is defined
-$$ \mathbf{v}_i = \sum_{ j \in N(i) } \mathbf{v}_j = \sum_j A_{ij}  \mathbf{v}_j.$$
+
+$$ \boldsymbol{v}_i = \sum_{ j \in N(i) } \boldsymbol{v}_j = \sum_j A_{ij}  \boldsymbol{v}_j.$$
 
 Thus, we can see that the above definition of the eigenvector centrality implies that it depends on both the number of neighbours $|N(i)|$ and the quality of its connections $\mathbf{v}_j$, for $j \in N(i)$.  
 
