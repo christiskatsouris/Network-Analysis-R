@@ -340,13 +340,13 @@ Then, the nodewise regression estimator $\hat{\Theta}$ of the precision matrix $
 $$
 \hat{C} := 
 \begin{bmatrix}
-1 \ & \  -\gamma_{1,2} \ & \ \hdots \ & \ -\gamma_{1,p} 
+1 \ & \  -\gamma_{1,2} \ & \  \ & \ -\gamma_{1,p} 
 \\
--\gamma_{1,2} \ & \ 1  \ & \ \hdots \ & \ \hdots
+-\gamma_{1,2} \ & \ 1  \ & \  \ & \ \hdots
 \\
 \vdots \ & \ \vdots  \ & \ \vdots \ & \ \vdots
 \\
--\gamma_{p,1} \ & \  -\gamma_{p,2} \ & \ \hdots \ & \ 1
+-\gamma_{p,1} \ & \  -\gamma_{p,2} \ & \  \ & \ 1
 \end{bmatrix}.
 $$
 
@@ -355,6 +355,7 @@ $$
 On Time Series Specifications for Network Data:
 
 - Ando, T., Greenwood-Nimmo, M., & Shin, Y. (2022). Quantile Connectedness: Modeling Tail Behavior in the Topology of Financial Networks. Management Science, 68(4), 2401-2431.
+- Callot, L., Caner, M., Önder, A. Ö., & Ulaşan, E. (2021). A nodewise regression approach to estimating large portfolios. Journal of Business & Economic Statistics, 39(2), 520-531.
 - Krackhardt, D. (1988). Predicting with networks: Nonparametric multiple regression analysis of dyadic data. Social networks, 10(4), 359-381.
 - Mazumder, R., & Hastie, T. (2012). The graphical lasso: New insights and alternatives. Electronic journal of statistics, 6, 2125.
 - Zhu, X., & Pan, R. (2020). Grouped network vector autoregression. Statistica Sinica, 30(3), 1437-1462.
