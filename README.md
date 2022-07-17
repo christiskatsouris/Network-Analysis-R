@@ -7,7 +7,7 @@ To obtain Centrality measures from a graph we first need to obtain the adjacency
 ### Katz centrality 
 
 Proposed by Katz (1953), for a symmetric adjacency matrix $\mathbf{A}$ with a vector of centrality scores for the nodes of the network given by
-$$ KC_i(\alpha ) =  ( \boldsymbol{I} - \alpha \boldsymbol{A}^{\top})^{-1} \boldsymbol{1}.$$
+$$ KC_i(\alpha ) =  ( \boldsymbol{I} - \alpha \boldsymbol{A})^{-1} \boldsymbol{1}.$$
 
 i = \sum_{j=0}^{\infty} \alpha^j \sum_{i=1}^N \lambda_i^k v_i v_i^{\top} \mathbf{1} $$.
 
