@@ -62,11 +62,11 @@ closeness.centrality.vector <- betweeness(G, mode="in")
 closeness.centrality.vector <- as.vector(closeness.centrality.vector)
 
 ```
-
+For instance we can also construct a function to estimate the leverage centrality measure as below. 
 
 ```R
 
-# Function to estimate the leverage centrality measure
+# 
 
 leverage <- function (A, weighted = TRUE)
 {
@@ -104,8 +104,7 @@ leverage <- function (A, weighted = TRUE)
   return(lev)
 }  
 
-```R
-
+```
 
 Therefore, as we see above there are various centrality measures which capture the main features of the network topology. 
 
