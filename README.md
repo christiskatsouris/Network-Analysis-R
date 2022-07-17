@@ -9,8 +9,10 @@ To obtain Centrality measures from a graph we first need to obtain the adjacency
 Proposed by Katz (1953), for a symmetric adjacency matrix $\mathbf{A}$ with a vector of centrality scores for the nodes of the network given by
 $$ KC_i(\alpha ) =  ( \boldsymbol{I} - \alpha \boldsymbol{A})^{-1} \boldsymbol{1}.$$
 
-i = \sum_{j=0}^{\infty} \alpha^j \sum_{i=1}^N \lambda_i^k v_i v_i^{\top} \mathbf{1} $$.
+where i = 
+$$\sum_{j=0}^{\infty} \alpha^j \sum_{i=1}^N \lambda_i^k v_i v_i^{\top} \mathbf{1} $$.
 
+The benefits of Katz centrality is that it the centrality score of nodes can be decomposed into two components, i.e., the idiosyncratic centrality and the system-related centrality, that is, the centrality passed to it in proportion to how important its neighbours are. Due to the construction of katz centrality of capturing the influence of nodes (i.e., the nodes which a node is connected to) is considered as a robust centrality measure in capturing financial contagion and risk transmission within the network, since we are also capturing the influence of financial institutions due to connectedness induced by the underline network topology. 
 
 
 ```R
