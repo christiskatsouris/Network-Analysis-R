@@ -342,7 +342,7 @@ $$
 \begin{bmatrix}
 1 \ & \  -\gamma_{1,2} \ & \  \ & \ -\gamma_{1,p} 
 \\
--\gamma_{1,2} \ & \ 1  \ & \  \ & \ \hdots
+-\gamma_{1,2} \ & \ 1  \ & \  \ & \ 
 \\
 \vdots \ & \ \vdots  \ & \ \vdots \ & \ \vdots
 \\
