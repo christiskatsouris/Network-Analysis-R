@@ -46,6 +46,10 @@ $$v_i = \sum_{ j \in N(i) } v_j = \sum A_{ij} v_j.$$
 
 Thus, we can see that the above definition of the eigenvector centrality implies that it depends on both the number of neighbours $|N(i)|$ and the quality of its connections $\mathbf{v}_j$, for $j \in N(i)$.  
 
+
+<img src="https://github.com/christiskatsouris/Network-Analysis-R/blob/main/data/graphs.jpeg" width="750"/>
+
+
 To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function.
 
 ```R
