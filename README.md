@@ -24,7 +24,7 @@ A modification of the katz centrality is the page rank centrality, which correct
  
  t access the centrality of a node at the local neighbourhood level. For example, the larger the closeness centrality of an institution the faster the influence in the other nodes of the network since it requires fewer steps for an impact to reach other nodes. The normalized closeness centrality of a node is computed as
 
-$$CC_i= \frac{N-1}{\sum_{j=1}^N d_{ij} }.$$
+$$CC_i= N-1 / \sum_{j=1}^N d_{ij}.$$
 
 ### Betweenness centrality. 
 
