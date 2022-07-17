@@ -7,7 +7,12 @@ To obtain Centrality measures from a graph we first need to obtain the adjacency
 
 ```R
 
+# Constructing the graph matrix
+G <- as.undirected( graph.adjacency( correlation.matrix, weighted = T) )
 
+# Estimate closeness centrality
+closeness.centrality.vector <- betweeness(G, mode="in")
+closeness.centrality.vector <- as.vector(closeness.centrality.vector)
 
 
 
