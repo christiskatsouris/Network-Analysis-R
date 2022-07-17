@@ -218,7 +218,7 @@ On Financial Networks using Times Series Data:
 - Härdle, W. K., Wang, W., & Yu, L. (2016). Tenet: Tail-event driven network risk. Journal of Econometrics, 192(2), 499-513.
 - Hashem, S. Q., & Giudici, P. (2016). NetMES: a network based marginal expected shortfall measure. The Journal of Network Theory in Finance, 2(3), 1-36.
 - Huang, W. Q., & Wang, D. (2018). A return spillover network perspective analysis of Chinese financial institutions’ systemic importance. Physica A: Statistical Mechanics and its Applications, 509, 405-421.
-- Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint arXiv:2112.12031.
+- Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
 - Tobias, A., & Brunnermeier, M. K. (2016). CoVaR. The American Economic Review, 106(7), 1705.
 - Yang, C., Chen, Y., Niu, L., & Li, Q. (2014). Cointegration analysis and influence rank—A network approach to global stock markets. Physica A: Statistical Mechanics and its Applications, 400, 168-185.
 
