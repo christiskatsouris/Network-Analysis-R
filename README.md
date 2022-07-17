@@ -333,7 +333,7 @@ On Financial Networks using Times Series Data:
 
 We begin by focusing on the graphical lasso shrinkage. The corresponding nodewise regression is defined as below 
 
-$$\hat{ \gamma }_j := \underset{ \gamma \in \mathbb{R}^{p-1} }{ \text{arg min} } \left( \norm{ r_j^{*} - \mathbf{r}^{*}_{-j} \gamma }_2^2 / n + 2 \lambda_j \norm{ \gamma }_1 \right).$$
+$$\hat{ \gamma }_j := \underset{ \gamma \in \mathbb{R}^{p-1} }{ \text{arg min} } \left( || r_j^{*} - \mathbf{r}^{*}_{-j} \gamma ||_2^2 / n + 2 \lambda_j ||  \gamma ||_1 \right).$$
 
 
 
