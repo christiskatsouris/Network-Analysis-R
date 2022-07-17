@@ -335,7 +335,20 @@ We begin by focusing on the graphical lasso shrinkage. The corresponding nodewis
 
 $$\hat{ \gamma }_j := \underset{ \gamma \in \mathbb{R}^{p-1} }{ \text{arg min} } \left( || r_j^{*} - r^{*}(-j) \gamma ||_2^2 / n + 2 \lambda_j ||  \gamma ||_1 \right).$$
 
+Then, the nodewise regression estimator $\hat{\Theta}$ of the precision matrix $\Theta$ is constructed as follow. 
 
+$$
+\hat{C} := 
+\begin{bmatrix}
+1 \ & \  -\gamma_{1,2} \ & \ \hdots \ & \ -\gamma_{1,p} 
+\\
+-\gamma_{1,2} \ & \ 1  \ & \ \hdots \ & \ \hdots
+\\
+\vdots \ & \ \vdots  \ & \ \vdots \ & \ \vdots
+\\
+-\gamma_{p,1} \ & \  -\gamma_{p,2} \ & \ \hdots \ & \ 1
+\end{bmatrix}.
+$$
 
 ## References
 
