@@ -2,8 +2,16 @@
 
 # [A]. Graph Centrality Measures
 
+To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function. 
 
 
+```R
+
+
+
+
+
+```
 
 Therefore, as we see above there are various measures which capture the main features of the network topology. 
 
