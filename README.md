@@ -14,7 +14,7 @@ The benefits of Katz centrality is that it the centrality score of nodes can be 
 
 ### Page rank centrality. 
 
-A modification of the katz centrality is the page rank centrality, which corrects for the contribution of neighbouring nodes on the impact each node has within the network. More specifically, with the eigenvector and katz centrality, there is no distinction between degree centrality and the level of connectedness of these neighbouring nodes. For example, low degree nodes may receive a high score because they are connected to very high degree nodes, even though they may have low degree centrality. Thus page rank centrality scales the contribution of node i's neighbours, $j$, to the centrality of node $i$ by the degree of i. Thus, the page rank centrality is given by
+A modification of the katz centrality is the page rank centrality, which corrects for the contribution of neighbouring nodes on the impact each node has within the network. More specifically, with the eigenvector and katz centrality, there is no distinction between degree centrality and the level of connectedness of these neighbouring nodes. For example, low degree nodes may receive a high score because they are connected to very high degree nodes, even though they may have low degree centrality. Thus page rank centrality scales the contribution of node $i$'s neighbours, $j$, to the centrality of node $i$ by the degree of i. Thus, the page rank centrality is given by
 
 
 ```R
@@ -26,11 +26,15 @@ G <- as.undirected( graph.adjacency( correlation.matrix, weighted = T) )
 closeness.centrality.vector <- betweeness(G, mode="in")
 closeness.centrality.vector <- as.vector(closeness.centrality.vector)
 
-
-
 ```
 
 Therefore, as we see above there are various measures which capture the main features of the network topology. 
+
+
+## References
+
+- Katsouris C. (2021). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
+- 
 
 ## Assignment 1
 
