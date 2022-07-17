@@ -42,7 +42,7 @@ $$LC_i =  \frac{1}{d_i} \sum_{i \in N_i } \frac{ d_i - d_j }{ d_i + d_j }.$$
 
 The eigenvector of node $i$ is equal to the leading eigenvector $\mathbf{v}_i$ and is computed using the characteristic equation of the adjacency matrix. Thus, the EC is defined
 
-$$ \mathbf{v} = \sum_{ j \in N(i) } \mathbf{v}_j = \sum A_{ij}  \boldsymbol{v}_j.$$
+$$v_i = \sum_{ j \in N(i) } v_j = \sum A_{ij} v_j.$$
 
 Thus, we can see that the above definition of the eigenvector centrality implies that it depends on both the number of neighbours $|N(i)|$ and the quality of its connections $\mathbf{v}_j$, for $j \in N(i)$.  
 
