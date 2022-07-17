@@ -331,18 +331,22 @@ On Financial Networks using Times Series Data:
 
 (Advanced Topics in Modelling High Dimensional Time Series Data) 
 
+We begin by focusing on the graphical lasso shrinkage. 
+
+
+
 
 ## References
 
 On Time Series Specifications for Network Data:
 
 - Ando, T., Greenwood-Nimmo, M., & Shin, Y. (2022). Quantile Connectedness: Modeling Tail Behavior in the Topology of Financial Networks. Management Science, 68(4), 2401-2431.
+- Krackhardt, D. (1988). Predicting with networks: Nonparametric multiple regression analysis of dyadic data. Social networks, 10(4), 359-381.
+- Mazumder, R., & Hastie, T. (2012). The graphical lasso: New insights and alternatives. Electronic journal of statistics, 6, 2125.
 - Zhu, X., & Pan, R. (2020). Grouped network vector autoregression. Statistica Sinica, 30(3), 1437-1462.
 - Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
 - Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
 - Xu, X., Wang, W., Shin, Y., & Zheng, C. (2022). Dynamic Network Quantile Regression Model. Journal of Business & Economic Statistics, (just-accepted), 1-36.
-- Krackhardt, D. (1988). Predicting with networks: Nonparametric multiple regression analysis of dyadic data. Social networks, 10(4), 359-381.
-
 
 # Reading List
 
