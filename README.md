@@ -356,6 +356,7 @@ $$
 On Time Series Specifications for Network Data:
 
 - Ando, T., Greenwood-Nimmo, M., & Shin, Y. (2022). Quantile Connectedness: Modeling Tail Behavior in the Topology of Financial Networks. Management Science, 68(4), 2401-2431.
+- Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint arXiv:2112.12031.
 - Callot, L., Caner, M., Önder, A. Ö., & Ulaşan, E. (2021). A nodewise regression approach to estimating large portfolios. Journal of Business & Economic Statistics, 39(2), 520-531.
 - Krackhardt, D. (1988). Predicting with networks: Nonparametric multiple regression analysis of dyadic data. Social networks, 10(4), 359-381.
 - Mazumder, R., & Hastie, T. (2012). The graphical lasso: New insights and alternatives. Electronic journal of statistics, 6, 2125.
