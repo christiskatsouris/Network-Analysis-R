@@ -339,7 +339,7 @@ $$\hat{ \gamma }_j := \underset{ \gamma \in \mathbb{R}^{p-1} }{ \text{arg min} }
 Then, the nodewise regression estimator $\hat{\Theta}$ of the precision matrix $\Theta$ is constructed as follow. 
 
 $$
-\hat{C} := 
+\hat{\Theta} := 
 \begin{bmatrix}
 1 \ & \  -\gamma_{1,2} \ & \  \ & \ -\gamma_{1,p} 
 \\
