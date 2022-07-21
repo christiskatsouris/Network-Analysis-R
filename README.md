@@ -8,7 +8,7 @@ Centrality measures are often used as a way to provide a statistical representat
 
 (b) global information such as closeness centrality and betweenness centrality. 
 
-Let $\mathcal{G} = ( \mathcal{E}, \mathcal{N} )$
+Let $\mathcal{G} = ( \mathcal{E}, \mathcal{N} )$ to represent a graph where $\mathcal{E}$ represents the set of edges and $\mathcal{N}$ represents the set of nodes such that $| \mathcal{N} | = N$, the number of nodes in the graph.
 
 ### Katz centrality. 
 
