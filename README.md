@@ -8,6 +8,8 @@ Centrality measures are often used as a way to provide a statistical representat
 
 (b) global information such as closeness centrality and betweenness centrality. 
 
+Let $\mathcal{G} = ( \mathcal{E}, \mathcal{N} )$
+
 ### Katz centrality. 
 
 Proposed by Katz (1953), for a symmetric adjacency matrix $\mathbf{A}$ with a vector of centrality scores for the nodes of the network given by
