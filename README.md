@@ -403,7 +403,7 @@ betaOLS<-function(Ymat, W, Z)                        ### OLS estimation for thet
 
 ## Remarks:
 
-- The above R function provides the estimation procedure for the parameter beta of the NAR model. However, when additional structure is imposed (such as the grouped dependence), then the econometric identification becomes requires to implement a commonly used algorithm from [Computational Econometrics](https://github.com/christiskatsouris/Computational-Econometrics-R) such as the EM Algorithm. 
+- The above R function provides the estimation procedure for the parameter beta of the NAR model. However, when additional structure is imposed (such as the grouped dependence), then the econometric identification becomes requires to implement a commonly used algorithm from [Computational Econometrics](https://github.com/christiskatsouris/Computational-Econometrics-R) such as the EM Algorithm (see, Wu C.J.(1983)).  
 
 
 ## References
@@ -418,6 +418,7 @@ On Time Series Specifications for Network Data:
 - Zhu, X., Pan, R., Li, G., Liu, Y., & Wang, H. (2017). Network vector autoregression. The Annals of Statistics, 45(3), 1096-1123.
 - Xu, X., Wang, W., Shin, Y., & Zheng, C. (2022). Dynamic Network Quantile Regression Model. Journal of Business & Economic Statistics, (just-accepted), 1-36.
 - Witten, D. M., Friedman, J. H., & Simon, N. (2011). New insights and faster computations for the graphical lasso. Journal of Computational and Graphical Statistics, 20(4), 892-900.
+- Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
 
 # Reading List
 
