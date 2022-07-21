@@ -16,7 +16,7 @@ The benefits of Katz centrality is that it the centrality score of nodes can be 
 
 A modification of the katz centrality is the page rank centrality, which corrects for the contribution of neighbouring nodes on the impact each node has within the network. More specifically, with the eigenvector and katz centrality, there is no distinction between degree centrality and the level of connectedness of these neighbouring nodes. For example, low degree nodes may receive a high score because they are connected to very high degree nodes, even though they may have low degree centrality. Thus page rank centrality scales the contribution of node $i$'s neighbours, $j$, to the centrality of node $i$ by the degree of i. Thus, the page rank centrality is given by
 
- $$PR_i = \alpha \sum_{j=1}^N A_{ji} \frac{v_j}{d_j} + \beta = \mathbf{\beta}(\mathbf{I} - \alpha\mathbf{D}^{-1} \mathbf{A})^{-1}$$
+ $$PR_i = \alpha \sum_{j=1}^N A_{ji} \frac{v_j}{d_j} + \beta = \mathbf{\beta}(\mathbf{I} - \alpha\mathbf{D}^{-1} \mathbf{A})^{-1}.$$
  
  where $d_j$ the degree centrality of node $j$. Notice that the weighted characteristic path length measures the average shortest path, from one node to any other node in the network. Thus, it can be interpreted as the shortest number of connections a shock from a node needs to reach another connected node in the network. 
  
@@ -61,8 +61,12 @@ G <- as.undirected( graph.adjacency( correlation.matrix, weighted = T) )
 closeness.centrality.vector <- betweeness(G, mode="in")
 closeness.centrality.vector <- as.vector(closeness.centrality.vector)
 
+# Estimate Eigenvector Centrality
+eigenvector.centrality.vector <- eigen_centrality(G)$vector
+eigenvector.centrality.vector <- as.matrix( as.vector( eigenvector.centrality.vector) )
+
 ```
-For instance we can also construct a function to estimate the leverage centrality measure as below. 
+Furthermore, we can also construct an R function to estimate the leverage centrality measure from a graph as below. Let A be the square adjacency matrix with elements being either 1 or 0. Furthermore, consider the corresponding weighted version of the adjacency matrix.   
 
 ```R
 
@@ -104,7 +108,7 @@ leverage <- function (A, weighted = TRUE)
 
 ```
 
-Therefore, as we see above there are various centrality measures which capture the main features of the network topology. 
+Therefore, as we saw in this Section there are various centrality measures which be employed in order to identify the main features regarding the network topology of the graph with a given structure. 
 
 
 ## Assignment 1
