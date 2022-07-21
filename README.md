@@ -363,6 +363,8 @@ $$
 \end{bmatrix}.
 $$
 
+Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model, although these aspects correspond to more advanced topics in Network Analysis Using R. 
+
 ## References
 
 On Time Series Specifications for Network Data:
