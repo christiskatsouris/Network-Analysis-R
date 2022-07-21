@@ -119,7 +119,7 @@ Therefore, as we saw in this Section there are various centrality measures which
 
 ## Assignment 1
 
-Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Specifically, based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). Then, in order to research the question on how centrality could be affecting the min-variance optimization problem use a suitable methodology that either removes central nodes automatically or via an appropriate penalization/shrinkage method.
+Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Specifically, based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). Then, in order to research the question on how centrality could be affecting the min-variance optimization problem use a suitable methodology that either removes central nodes automatically or via an appropriate penalization/shrinkage method. See also this [page](https://github.com/christiskatsouris/Computational-Econometrics-R) with related helpful definitions and examples. 
 
 ## References
 
