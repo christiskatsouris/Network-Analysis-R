@@ -363,7 +363,14 @@ $$
 \end{bmatrix}.
 $$
 
-Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model, although these aspects correspond to more advanced topics in Network Analysis Using R. 
+Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model (see, Zhu et al. (2017)); although these aspects correspond to more advanced topics in Network Analysis Using R. Furthermore, an extension of the particular framework is presented by Zhu et al. (2020) who consider estimation and inference problem for the NVAR model with grouped structure. 
+
+## Example 4
+
+
+
+
+
 
 ## References
 
@@ -374,7 +381,7 @@ On Time Series Specifications for Network Data:
 - Mazumder, R., & Hastie, T. (2012). The graphical lasso: New insights and alternatives. Electronic journal of statistics, 6, 2125.
 - Zhu, X., & Pan, R. (2020). Grouped network vector autoregression. Statistica Sinica, 30(3), 1437-1462.
 - Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
-- Zhu, X., Wang, W., Wang, H., & Härdle, W. K. (2019). Network quantile autoregression. Journal of econometrics, 212(1), 345-358.
+- Zhu, X., Pan, R., Li, G., Liu, Y., & Wang, H. (2017). Network vector autoregression. The Annals of Statistics, 45(3), 1096-1123.
 - Xu, X., Wang, W., Shin, Y., & Zheng, C. (2022). Dynamic Network Quantile Regression Model. Journal of Business & Economic Statistics, (just-accepted), 1-36.
 - Witten, D. M., Friedman, J. H., & Simon, N. (2011). New insights and faster computations for the graphical lasso. Journal of Computational and Graphical Statistics, 20(4), 892-900.
 
