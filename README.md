@@ -363,7 +363,7 @@ $$
 \end{bmatrix}.
 $$
 
-Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model (see, Zhu et al. (2017)); although these aspects correspond to more advanced topics in Network Analysis Using R. Furthermore, an extension of the particular framework is presented by Zhu et al. (2020) who consider estimation and inference problem for the NVAR model with grouped structure. 
+Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model (see, Zhu et al. (2017)); although these aspects correspond to more advanced topics in Network Analysis Using R. Furthermore, an extension of the particular framework is presented by Zhu et al. (2020) who consider the estimation and inference problem for the NVAR model under grouped structure. 
 
 ## Example 4
 
