@@ -54,11 +54,11 @@ Thus, we can see that the above definition of the eigenvector centrality implies
 
 ### Square eigenvector centrality. 
 
-Since we are particularly interested to assess the network dynamics in financial networks as well as the robustness and resilience of a network from economic shocks and spillovers, the square eigenvector centrality reflects the impact of the removal of node $j$ from the graph at an eigen-frequency/eigenvalue $\lambda_k$ as presented by \cite{van2014graph}. This is given by the expression
+Since we are particularly interested to assess the network dynamics in financial networks as well as the robustness and resilience of a network from economic shocks and spillovers, the square eigenvector centrality reflects the impact of the removal of node $j$ from the graph at an eigen-frequency/eigenvalue $\lambda_k$ as presented by Van Mieghem (2014). This is given by the expression
 
 $$(x_k)^2 = - \frac{1}{ c^{\prime}_A(\lambda_k) } \mathsf{det} ( A_{ \backslash \(j ) } - \lambda_k \mathbf{I}).$$
 
-where $c_A(\lambda) =$det$(\mathbf{A} - \lambda \mathbf{I} )$ and $c^{\prime}_A (\lambda) = \displaystyle \frac{ d c^{'}_A (\lambda)}{ d \lambda}$ and $\mathbf{A}_{\backslash \{j\}}$ is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
+where $c_A(\lambda) =$det$( A - \lambda I} )$ and $c^{\prime}_A (\lambda) = \frac{ d c^{\prime}_A (\lambda)}{ d \lambda}$ and $\mathbf{A}_{\backslash \{j\}}$ is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
 
 To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function.
 
@@ -149,6 +149,7 @@ Using the centrality measures introduced above and based on a partial-correlatio
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
 - Vargas Jr, R., Waldron, A., Sharma, A., Flórez, R., and Narayan, D. A. (2017). A graph theoretic analysis of leverage centrality. AKCE International Journal of Graphs and Combinatorics, 14(3):295–306.
+- Van Mieghem, P. (2014). Graph eigenvectors, fundamental weights and centrality metrics for nodes in networks. arXiv preprint arXiv:1401.4580.
 
 # [B]. Adjacency Matrices and Network Data
 
