@@ -60,7 +60,7 @@ $$(x_k)^2 = - \frac{1}{ c^{\prime}_A(\lambda_k) } \mathsf{det} ( A_{ \backslash 
 
 where 
 
-$$ c_A(\lambda) = \mathsf{det}( A - \lambda I} )$ and $c^{\prime}_A (\lambda) = \frac{ d c^{\prime}_A (\lambda)}{ d \lambda}$ and $\mathbf{A}_{\backslash \{j\}}$$
+$$ c_A(\lambda) = \mathsf{det}( A - \lambda I} ) \ \ \ \text{and} \ \ \  c^{\prime}_A (\lambda) = \frac{ d c^{\prime}_A (\lambda)}{ d \lambda} \ \ \text{and} \mathbf{A}_{\backslash \{j\}}$$
 
 is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
 
