@@ -120,7 +120,7 @@ $\textbf{Lemma:}$ A vector $\mathbf{x}=(x_1,...,x_n)$ is said to be an eigenvcto
 $$\sum_{j=1}^N a_{ij}x_j = \lambda x_i.$$ 
 Then, the eigenvalues of a matrix $\mathbf{A}$ are roots of the characteristic equation of the matrix $| \mathbf{A} - \lambda \mathbf{I} | = 0$.   
 
-$\textbf{Theorem:}$ (Perron theorem) If A is a positive matrix, there is a unique characteristic root of A, $\lambda(A)$, which has the greatest absolute value. This root is positive and simple, and its associated characteristic vector may be taken to be positive. 
+$\textbf{Theorem:}$ (Perron-Frobenius theorem) If A is a positive matrix, there is a unique characteristic root of A, $\lambda(A)$, which has the greatest absolute value. This root is positive and simple, and its associated characteristic vector may be taken to be positive. 
 
 If $\lambda(A) = \{ x : det( \mathbf{A} - x \mathbf{I} ) = 0 \}$ then $\lambda_1(A) \geq ... \geq \lambda_n(A)$ where e.g., $\lambda_{max}(A) = \lambda_1(A)$ and $\lambda_{min }(A) = \lambda_1(A)$.
 
