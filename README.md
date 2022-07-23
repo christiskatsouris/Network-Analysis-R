@@ -2,7 +2,9 @@
 
 # [A]. Graph Centrality Measures
 
-Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as: "Who is the key player?" (see, Ballester et al. (2006)), "What is the most vulnerable to economic shocks node?", or "What is the level of finacial connectedness of core versus periphery nodes in the graph?". Generally speaking, in practise centrality measures can provide network information related to:
+Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as: "Who is the key player?" (see, Ballester et al. (2006)), "What is the most vulnerable to economic shocks node?", or "What is the level of finacial connectedness of core versus periphery nodes in the graph?". For instnace, Drehmann and Tarashev (2013), asks "Who is more systemically important the lender or the borrower in an interbank market transaction?"
+
+Generally speaking, in practise centrality measures can provide network information related to:
 
 (a) the properties of local topology via measures such as degree centrality and page rank, and 
 
@@ -148,12 +150,14 @@ Using the centrality measures introduced above and based on a partial-correlatio
 
 - Anufriev, M., & Panchenko, V. (2015). Connecting the dots: Econometric methods for uncovering networks with an application to the Australian financial institutions. Journal of Banking & Finance, 61, S241-S255.
 - Ballester, C., Calvó‐Armengol, A., & Zenou, Y. (2006). Who's who in networks. Wanted: The key player. Econometrica, 74(5), 1403-1417.
+- Drehmann, M., & Tarashev, N. (2013). Measuring the systemic importance of interconnected banks. Journal of Financial Intermediation, 22(4), 586-607.
 - Huang, Q., Zhao, C., Zhang, X., Wang, X., & Yi, D. (2017). Centrality measures in temporal networks with time series analysis. EPL (Europhysics Letters), 118(3), 36001.
 - Katsouris C. (2021). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
 - Vargas Jr, R., Waldron, A., Sharma, A., Flórez, R., and Narayan, D. A. (2017). A graph theoretic analysis of leverage centrality. AKCE International Journal of Graphs and Combinatorics, 14(3):295–306.
 - Van Mieghem, P. (2014). Graph eigenvectors, fundamental weights and centrality metrics for nodes in networks. arXiv preprint arXiv:1401.4580.
+
 
 # [B]. Adjacency Matrices and Network Data
 
