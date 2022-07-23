@@ -60,9 +60,9 @@ $$(x_k)^2 = - \frac{1}{ c^{\prime}(\lambda_k) } \mathsf{det} ( A_{ \backslash \(
 
 where 
 
-$$ c_A(\lambda) = \mathsf{det} ( A - \lambda I} ), \ \ \  c^{\prime} (\lambda) = \frac{ d c^{\prime} (\lambda)}{ d \lambda} \ \ \text{and} \mathbf{A}_{ \{j\}}$$
+$$ c_A(\lambda) = \mathsf{det} ( A - \lambda I} ), \ \ \  c^{\prime} (\lambda) = \frac{ d c^{\prime} (\lambda)}{ d \lambda},$$
 
-is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
+$\mathbf{A}_{ \{j\}}$ is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
 
 To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function.
 
