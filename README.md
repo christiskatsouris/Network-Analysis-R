@@ -58,7 +58,11 @@ Since we are particularly interested to assess the network dynamics in financial
 
 $$(x_k)^2 = - \frac{1}{ c^{\prime}_A(\lambda_k) } \mathsf{det} ( A_{ \backslash \(j ) } - \lambda_k \mathbf{I}).$$
 
-where $c_A(\lambda) =$det$( A - \lambda I} )$ and $c^{\prime}_A (\lambda) = \frac{ d c^{\prime}_A (\lambda)}{ d \lambda}$ and $\mathbf{A}_{\backslash \{j\}}$ is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
+where 
+
+$$c_A(\lambda) =$det$( A - \lambda I} )$ and $c^{\prime}_A (\lambda) = \frac{ d c^{\prime}_A (\lambda)}{ d \lambda}$ and $\mathbf{A}_{\backslash \{j\}}$$
+
+is obtained from $\mathbf{A}$ by removal of row $j$ and column $j$. 
 
 To obtain Centrality measures from a graph we first need to obtain the adjacency matrix. Then, the centrality measures, which appear in the form of estimated vectrors for instance, can be calculated using either 'build-in' functions from R packages or by developing our own estimation procedure using a function.
 
