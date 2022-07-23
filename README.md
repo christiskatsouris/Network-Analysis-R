@@ -2,7 +2,7 @@
 
 # [A]. Graph Centrality Measures
 
-Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as: "Who is the key player?" (see, Ballester et al. (2006)), "What is the most vulnerable to economic shocks node?", or "What is the level of finacial connectedness of core versus periphery nodes in the graph?". For instance, Drehmann and Tarashev (2013), asks "Who is more systemically important the lender or the borrower in an interbank market transaction?"
+Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as: "Who is the key player?" (see, [Ballester et al. (2006)](https://www.jstor.org/stable/3805930#metadata_info_tab_contents)), "What is the most vulnerable to economic shocks node?", or "What is the level of finacial connectedness of core versus periphery nodes in the graph?". For instance, [Drehmann and Tarashev (2013)](https://www.sciencedirect.com/science/article/pii/S1042957313000326), asks "Who is more systemically important the lender or the borrower in an interbank market transaction?"
 
 Generally speaking, in practise centrality measures can provide network information related to:
 
