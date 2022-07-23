@@ -450,11 +450,11 @@ On Time Series Specifications for Network Data:
 
 # Reading List
 
-[1] Newman, M. (2018). Networks. Oxford University Press.
+$\textbf{[1]}$ Newman, M. (2018). Networks. Oxford University Press.
 
-[2] Newman, M. E., Barabási, A. L. E., & Watts, D. J. (2006). The structure and dynamics of networks. Princeton University Press.
+$\textbf{[2]}$ Newman, M. E., Barabási, A. L. E., & Watts, D. J. (2006). The structure and dynamics of networks. Princeton University Press.
 
-[3] Bühlmann, P., & Van De Geer, S. (2011). Statistics for high-dimensional data: methods, theory and applications. Springer Science & Business Media. 
+$\textbf{[3]}$ Bühlmann, P., & Van De Geer, S. (2011). Statistics for high-dimensional data: methods, theory and applications. Springer Science & Business Media. 
 
 # Disclaimer
 
