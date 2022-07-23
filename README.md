@@ -56,7 +56,7 @@ Thus, we can see that the above definition of the eigenvector centrality implies
 
 Since we are particularly interested to assess the network dynamics in financial networks as well as the robustness and resilience of a network from economic shocks and spillovers, the square eigenvector centrality reflects the impact of the removal of node $j$ from the graph at an eigen-frequency/eigenvalue $\lambda_k$ as presented by Van Mieghem (2014). This is given by the expression
 
-$$(x_k)^2 = - \frac{1}{ c^{\prime}_A(\lambda_k) } \mathsf{det} ( A_{ \backslash \(j ) } - \lambda_k \mathbf{I}).$$
+$$(x_k)^2 = - \frac{1}{ c^{\prime}(\lambda_k) } \mathsf{det} ( A_{ \backslash \(j ) } - \lambda_k \mathbf{I}).$$
 
 where 
 
