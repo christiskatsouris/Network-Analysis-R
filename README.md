@@ -114,8 +114,18 @@ leverage <- function (A, weighted = TRUE)
 
 ```
 
-Therefore, as we saw in this Section there are various centrality measures which be employed in order to identify the main features regarding the network topology of the graph with a given structure. 
+Therefore, this Section introduces various centrality measures which can be employed in order to identify the main features regarding the network topology of the graph with a given structure. Lastly, we introduce a useful result, that is, the Perron-Frobenius Theorem.
 
+A vector $\mathbf{x}=(x_1,...,x_n)$ is said to be an eigenvctor of an (N x N matrix) $\mathbf{A}$ with an eigenvalue $\lambda$ if for each $i$ it satisfies the equation $\sum_{j=1}^N a_{ij}x_j = \lambda x_i$. The eigenvalues of a matrix $\mathbf{A}$ are roots of the characteristic equation of the matrix $| \mathbf{A} - \lambda \mathbf{I} | = 0$.   
+\end{lemma}
+
+\begin{theorem}
+(Perron theorem) If A is a positive matrix, there is a unique characteristic root of A, $\lambda(A)$, which has the greatest absolute value. This root is positive and simple, and its associated characteristic vector may be taken to be positive (see e.g., \cite{bellman1997introduction}). 
+\end{theorem}
+
+In other words, If $\lambda(A) = \{ x : det( \mathbf{A} - x \mathbf{I} ) = 0 \}$ then $\lambda_1(A) \geq ... \geq \lambda_n(A)$ where e.g., $\lambda_{max}(A) = \lambda_1(A)$ and $\lambda_{min }(A) = \lambda_1(A)$.
+
+Note that in general a matrix will have complex eigenvalues and eigenvectors, but an adjacency matrix of a graph is a non-negative matrix. Moreover, for any non-negative matrix, the Perron-Frobenius theorem guarantees that there exists an eigenvalue which is real and larger than or equal to all other eigenvalues in magnitude. The largest eigenvalue is called the Perron-Frobenius eigenvalue of the matrix, which we will denote by $\lambda_1(\mathbf{A})$. Furthermore, the theorem states that there exists an eigenvector of $\mathbf{A}$ corresponding to $\lambda_1(\mathbf{A})$ all of which components are real and non-negative
 
 ## Assignment 1
 
