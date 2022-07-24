@@ -143,7 +143,7 @@ If $\lambda(A) = \{ x : det( \mathbf{A} - x \mathbf{I} ) = 0 \}$ then $\lambda_1
 ### Remarks
 
 - Notice that in general a matrix can have complex eigenvalues and eigenvectors, but an adjacency matrix of a graph is a non-negative matrix. Thus, for any non-negative matrix, the Perron-Frobenius theorem guarantees that there exists an eigenvalue which is real and larger than or equal to all other eigenvalues in magnitude. The largest eigenvalue is called the Perron-Frobenius eigenvalue of the matrix, which we will denote by $\lambda_1(\mathbf{A})$. Furthermore, the theorem states that there exists an eigenvector of $\mathbf{A}$ corresponding to $\lambda_1(\mathbf{A})$ all of which components are real and non-negative.
-- Furthermore, according to [Katsouris (2021a)](https://arxiv.org/abs/2112.12031), when a simple application of the Spectral Vector Decomposition (SVD) on the covariance matrix yields the following expression 
+- Furthermore, according to [Katsouris (2021a)](https://arxiv.org/abs/2112.12031) a simple application of the Spectral Vector Decomposition (SVD) on the covariance matrix yields the following expression 
 
 $$\lambda_k = \sum_{q=1}^n v_{kh} v_{qk} \sigma_{q}^2 + \sum_{i=1}^n \overset{n}{\underset{\underset{j \neq i}{j=1}}{\sum}} v_{kj} v_{ik} \sigma_{ji}.$$
 
