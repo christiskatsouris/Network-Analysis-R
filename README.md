@@ -486,6 +486,13 @@ The proposed Course Syllabus is currently under development and has not been off
 
 Any errors or omissions are the responsibility of the author.
 
+# Acknowledgments
+
+The author has benefited by participating in workshops and training sessions related to High Performance Computing both at the University of Southampton as well as at University College London (UCL).
+
+Any suggestions or questions are welcome. 
+
+Any requests for collaborations on the theme of 'Network Econometrics' are also welcome!
 
 # How to Cite a Website
 
