@@ -490,9 +490,9 @@ Any errors or omissions are the responsibility of the author.
 
 The author has benefited by participating in workshops and training sessions related to High Performance Computing both at the University of Southampton as well as at University College London (UCL).
 
-Any suggestions or questions are welcome. 
+Any questions or comments/suggestions are welcome! 
 
-Any requests for collaborations on the theme of 'Network Econometrics' are also welcome!
+If you are interested to collaborate on the general theme of 'Network Econometrics', don't hesitate to contact me at christiskatsouris@gmail.com
 
 # How to Cite a Website
 
