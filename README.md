@@ -144,7 +144,7 @@ If $\lambda(A) = \{ x : det( \mathbf{A} - x \mathbf{I} ) = 0 \}$ then $\lambda_1
 
 ## Assignment 1
 
-Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Specifically, based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). Then, in order to research the question on how centrality could be affecting the min-variance optimization problem use a suitable methodology that either removes central nodes automatically or via an appropriate penalization/shrinkage method. See also this [page](https://github.com/christiskatsouris/Computational-Econometrics-R) with related helpful definitions and examples. 
+Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Specifically, based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). Then, in order to research the question on how centrality could be affecting the min-variance optimization problem use a suitable methodology that either removes central nodes automatically or via an appropriate penalization/shrinkage method. See also the [Computational-Econometrics-R](https://github.com/christiskatsouris/Computational-Econometrics-R) page which has related helpful definitions and examples on optimization techniques. 
 
 ## References
 
@@ -155,9 +155,9 @@ Using the centrality measures introduced above and based on a partial-correlatio
 - Katsouris C. (2021). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
+- Le, L. T., Eliassi-Rad, T., & Tong, H. (2015, June). MET: A fast algorithm for minimizing propagation in large graphs with small eigen-gaps. In Proceedings of the 2015 SIAM International Conference on Data Mining (pp. 694-702). Society for Industrial and Applied Mathematics.
 - Vargas Jr, R., Waldron, A., Sharma, A., Flórez, R., and Narayan, D. A. (2017). A graph theoretic analysis of leverage centrality. AKCE International Journal of Graphs and Combinatorics, 14(3):295–306.
 - Van Mieghem, P. (2014). Graph eigenvectors, fundamental weights and centrality metrics for nodes in networks. arXiv preprint arXiv:1401.4580.
-
 
 # [B]. Adjacency Matrices and Network Data
 
