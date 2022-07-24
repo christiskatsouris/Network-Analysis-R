@@ -141,6 +141,11 @@ If $\lambda(A) = \{ x : det( \mathbf{A} - x \mathbf{I} ) = 0 \}$ then $\lambda_1
 ### Remarks
 
 - Notice that in general a matrix can have complex eigenvalues and eigenvectors, but an adjacency matrix of a graph is a non-negative matrix. Thus, for any non-negative matrix, the Perron-Frobenius theorem guarantees that there exists an eigenvalue which is real and larger than or equal to all other eigenvalues in magnitude. The largest eigenvalue is called the Perron-Frobenius eigenvalue of the matrix, which we will denote by $\lambda_1(\mathbf{A})$. Furthermore, the theorem states that there exists an eigenvector of $\mathbf{A}$ corresponding to $\lambda_1(\mathbf{A})$ all of which components are real and non-negative.
+- Furthermore, according to [Katsouris (2021a)](https://arxiv.org/abs/2112.12031), when a simple application of the Spectral Vector Decomposition (SVD) on the covariance matrix yields the following expression 
+
+$$\lambda_k = \sum_{q=1}^n v_{kh} v_{qk} \sigma_{q}^2 + \sum_{i=1}^n \overset{n}{\underset{\underset{j \neq i}{j=1}}{\sum}} v_{kj} v_{ik} \sigma_{ji}.$$
+
+Interestingly, this expression shows that each eigenvalue is the sum of a weighted average of the variance of all assets in the portfolio plus the sum of the contributions of the different covariance terms. Hence, we can decompose the contribution of an eigenvalue $\lambda_k$ to the optimal weight, into two components. A first component which arises from the aggregate effect of the idiosyncratic variance of each asset in the portfolio, and a second component which arises from the dependence between the asset $i$ and the remaining assets in the portfolio. 
 
 ## Assignment 1
 
@@ -152,7 +157,8 @@ Using the centrality measures introduced above and based on a partial-correlatio
 - Ballester, C., Calvó‐Armengol, A., & Zenou, Y. (2006). Who's who in networks. Wanted: The key player. Econometrica, 74(5), 1403-1417.
 - Drehmann, M., & Tarashev, N. (2013). Measuring the systemic importance of interconnected banks. Journal of Financial Intermediation, 22(4), 586-607.
 - Huang, Q., Zhao, C., Zhang, X., Wang, X., & Yi, D. (2017). Centrality measures in temporal networks with time series analysis. EPL (Europhysics Letters), 118(3), 36001.
-- Katsouris C. (2021). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
+- Katsouris, C. (2021a). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint arXiv:2112.12031.
+- Katsouris C. (2021b). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
 - Le, L. T., Eliassi-Rad, T., & Tong, H. (2015, June). MET: A fast algorithm for minimizing propagation in large graphs with small eigen-gaps. In Proceedings of the 2015 SIAM International Conference on Data Mining (pp. 694-702). Society for Industrial and Applied Mathematics.
