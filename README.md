@@ -478,7 +478,9 @@ $\textbf{[2]}$ Newman, M. E., Barabási, A. L. E., & Watts, D. J. (2006). The st
 
 $\textbf{[3]}$ Manual, C. A. (2020). The Econometrics of Networks. network, 255, 260.
 
-$\textbf{[4]}$ Bühlmann, P., & Van De Geer, S. (2011). Statistics for high-dimensional data: methods, theory and applications. Springer Science & Business Media. 
+$\textbf{[4]}$ Graham, B., & De Paula, A. (Eds.). (2020). The Econometric Analysis of Network Data. Academic Press.
+
+$\textbf{[5]}$ Bühlmann, P., & Van De Geer, S. (2011). Statistics for high-dimensional data: methods, theory and applications. Springer Science & Business Media. 
 
 # Disclaimer
 
