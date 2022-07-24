@@ -445,7 +445,7 @@ betaOLS<-function(Ymat, W, Z)                        ### OLS estimation for thet
 
 In order to capture the main features of financial networks, one might be interested to examine the simultaneous features of Granger causality and spatial dependence (or graph dependence in the broader sence) with a structural econometrics model as below
 
-$$ \boldsymbol{Y}_t = \mathbf{A} . \boldsymbol{Y}_{t-1} + \rho \mathbf{W} . \boldsymbol{Y}_{t} + \mathbf{U}_t,$$
+$$Y_t = \mathbf{A} . Y_{t-1} + \rho \mathbf{W} . Y_{t} + U_t,$$
 
 where $Y_t = (y_{1t},...,y_{Nt})^{\top}$ is a vector of dependent variables (e.g., excess returns), $\mathbf{W} \in \mathbb{R}$ is an (N x N) non-stochastic spatial matrix with a zero diagonal, $\rho$ is a scalar parameter and $U_t = (u_{1t},...,u_{Nt})^{\top}$ is a vector of i.i.d. disturbances with zero mean and finite variances. Furthermore, for the correct identification of the above specification we assume that there exists a power representation of $(I-\rho \mathbf{W})^{-1}$ given by  
 
