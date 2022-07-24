@@ -447,11 +447,11 @@ In order to capture the main features of financial networks, one might be intere
 
 $$ \mathbf{Y}_t = \mathbf{A} . \mathbf{Y}_{t-1} + \rho \mathbf{W} . \mathbf{Y}_{t} + \mathbf{U}_t,$$
 
-where $\mathbf{Y}_t = (y_{1t},...,y_{Nt})^{'}$ is a vector of dependent variables (e.g., excess returns), $\mathbf{W} \in \mathbb{R}$ is an (N x N) non-stochastic spatial matrix with a zero diagonal, $\rho$ is a scalar parameter and $\mathbf{U}_t = (u_{1t},...,u_{Nt})^{'}$ is a vector of i.i.d. disturbances with zero mean and finite variances. Furthermore, for the correct identification of the above specification we assume that there exists a power representation of $(I-\rho \mathbf{W})^{-1}$ given by  
+where $\boldsymbol{Y}_t = (y_{1t},...,y_{Nt})^{\top}$ is a vector of dependent variables (e.g., excess returns), $\mathbf{W} \in \mathbb{R}$ is an (N x N) non-stochastic spatial matrix with a zero diagonal, $\rho$ is a scalar parameter and $\mathbf{U}_t = (u_{1t},...,u_{Nt})^{'}$ is a vector of i.i.d. disturbances with zero mean and finite variances. Furthermore, for the correct identification of the above specification we assume that there exists a power representation of $(I-\rho \mathbf{W})^{-1}$ given by  
 
 $$ (\mathbf{I}-\rho \mathbf{W})^{-1} = \sum_{j=0}^{\infty} \rho^j \mathbf{W}^j.$$ 
 
-If $| \rho | < 1$ then $(I-\rho \mathbf{W})$ is nonsingular and (\ref{eq:1}) has a unique solution, capturing the idea that connections further away are less influential. If $| \rho | > 1$ then the process is explosive, which is interpreted as complete financial collapse. 
+If $| \rho | < 1$ then $(I-\rho \mathbf{W})$ is nonsingular and has a unique solution, capturing the idea that connections further away are less influential. If $| \rho | > 1$ then the process is explosive, which is interpreted as complete financial collapse. 
 
 Furthermore, under the above specification, the term $A Y_{t-1}$ captures the Granger causality effects between the components of the vector valued series $Y_t$ and its lag term $Y_{t-1}$. Moreover, the second term of the model $\rho W Y_{t}$ captures the spatial dependence (i.e. the simultaneous dependence) of the network since it includes a spatial lagged of the dependent variable along with the weight matrix $\mathbf{W}$ which is exogenously defined in the dynamics of the system (a procedure is followed to determine the elements of $W_{ij}$). We leave the above considerations for future research (see, [Research Project](https://www.researchgate.net/project/The-Econometrics-of-Financial-Networks-Theory-and-Applications)). 
 
