@@ -10,8 +10,8 @@ Generally speaking, the use of centrality measures can provide network informati
 
 (b) global information such as closeness centrality and betweenness centrality. 
 
-Let $\mathcal{G} = ( \mathcal{E}, \mathcal{N} )$ be a non-empty graph consisting of a set of nodes where $\mathcal{E}$ represents the set of edges and $\mathcal{N}$ represents the set of nodes such that $| \mathcal{N} | = N$, the number of nodes in the graph. In other words, the network under examination represents an economy of N economic agents (nodes in the graph) with $\mathcal{N} ∈ {1, ..., N}$ which have financial interactions in pairs represented
-by the connected edges of the network
+Let $\mathcal{G} = ( \mathcal{E}, \mathcal{N} )$ be a non-empty graph consisting of a set of nodes where $\mathcal{E}$ represents the set of edges and $\mathcal{N}$ represents the set of nodes such that $| \mathcal{N} | = N$, the number of nodes in the graph. In other words, the network under examination represents an economy of N economic agents (nodes in the graph) with $\mathcal{N} ∈ (1, ..., N)$ which have financial interactions in pairs represented
+by the connected edges of the network.
 
 We begin by defining the main centrality measures. 
 
