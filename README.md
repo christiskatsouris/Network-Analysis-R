@@ -272,7 +272,6 @@ V5  0  1  0  1  0
 
 ```
 
-
 ## Example 3
 
 Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence. Notice that the notion of 'network dependence' is not formally mathematically defined in the literature, so currently there is no formal definition (to the best of my knowledge). This is an active research field, so many open research questions remain.
@@ -391,7 +390,7 @@ $$
 \end{bmatrix}.
 $$
 
-Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model (see, Zhu et al. (2017)); although these aspects correspond to more advanced topics in Network Analysis Using R. Furthermore, an extension of the particular framework is presented by Zhu et al. (2020) who consider the estimation and inference problem for the NVAR model under grouped structure. 
+Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model (see, [Zhu et al. (2017)](https://projecteuclid.org/journals/annals-of-statistics/volume-45/issue-3/Network-vector-autoregression/10.1214/16-AOS1476.full)); although these aspects correspond to more advanced topics in Network Analysis Using R. Furthermore, an extension of the particular framework is presented by [Zhu et al. (2020)](https://www.jstor.org/stable/26968936#metadata_info_tab_contents) who consider the estimation and inference problem for the NVAR model under grouped structure. 
 
 ## Example 4
 
