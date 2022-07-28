@@ -363,7 +363,8 @@ On Financial Networks using Times Series Data:
 - Baumöhl, E., Kočenda, E., Lyócsa, Š., & Výrost, T. (2018). Networks of volatility spillovers among stock markets. Physica A: Statistical Mechanics and its Applications, 490, 1555-1574.
 - Borri, N. (2019). Conditional tail-risk in cryptocurrency markets. Journal of Empirical Finance, 50, 1-19.
 - Billio, M., Getmansky, M., Lo, A. W., & Pelizzon, L. (2012). Econometric measures of connectedness and systemic risk in the finance and insurance sectors. Journal of financial economics, 104(3), 535-559.
-- Cui, X., & Yang, L. Systemic risk and idiosyncratic networks among global systemically important banks. International Journal of Finance & Economics.
+Calabrese, R., Elkink, J. A., & Giudici, P. S. (2017). Measuring bank contagion in Europe using binary spatial regression models. Journal of the Operational Research Society, 68(12), 1503-1511.
+- Cui, X., & Yang, L. (2022). Systemic risk and idiosyncratic networks among global systemically important banks. International Journal of Finance & Economics.
 - Chen, C. Y. H., Härdle, W. K., & Okhrin, Y. (2019). Tail event driven networks of SIFIs. Journal of Econometrics, 208(1), 282-298.
 - Diebold, F. X., & Yılmaz, K. (2014). On the network topology of variance decompositions: Measuring the connectedness of financial firms. Journal of econometrics, 182(1), 119-134.
 - Härdle, W. K., Wang, W., & Yu, L. (2016). Tenet: Tail-event driven network risk. Journal of Econometrics, 192(2), 499-513.
