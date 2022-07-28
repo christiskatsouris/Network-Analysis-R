@@ -1,5 +1,12 @@
 # Network-Analysis-R
 
+Teaching page (Drafted July 2022).
+
+### Course Overview:
+
+The main philosophy with this course is to combine traditional network analysis measures with more formal econometric specifications for modelling network data with emphasis on systemic risk and capturing spillover effects and financial interdependancies. The module will introduce state-of-the-art techniques and programming software capabilities for each theme covered in the Syllabus.
+
+
 # [A]. Graph Centrality Measures
 
 Centrality measures are often used as a way to provide a statistical representation of how connected a node is and to access spillover effects within the network. The introduction of centrality measures can answer relevant questions within the framework of financial networks such as: "Who is the key player?" (see, [Ballester et al. (2006)](https://www.jstor.org/stable/3805930#metadata_info_tab_contents)), "What is the most vulnerable to economic shocks node?", or "What is the level of finacial connectedness of core versus periphery nodes in the graph?". Furthermore, [Drehmann and Tarashev (2013)](https://www.sciencedirect.com/science/article/pii/S1042957313000326), asks "Who is more systemically important the lender or the borrower in an interbank market transaction?". Therefore, the exact network topology at certain periods of time (e.g., such as periods of finacial turbulance or market exuberance) can amplify the transmission of financial contagion and thus is important to develop robust econometric methodologies for systemic risk monitoring. 
@@ -354,6 +361,7 @@ On Financial Networks using Times Series Data:
 - Ando, T., Greenwood-Nimmo, M., & Shin, Y. (2022). Quantile Connectedness: Modeling Tail Behavior in the Topology of Financial Networks. Management Science, 68(4), 2401-2431.
 - Allen, F., & Gale, D. (2000). Financial contagion. Journal of political economy, 108(1), 1-33.
 - Acharya, V. V., Pedersen, L. H., Philippon, T., & Richardson, M. (2017). Measuring systemic risk. The review of financial studies, 30(1), 2-47.
+- Acharya, V., Engle, R., & Richardson, M. (2012). Capital shortfall: A new approach to ranking and regulating systemic risks. American Economic Review, 102(3), 59-64.
 - Acemoglu, D., Ozdaglar, A., & Tahbaz-Salehi, A. (2015). Systemic risk and stability in financial networks. American Economic Review, 105(2), 564-608.
 - Anufriev, M., & Panchenko, V. (2015). Connecting the dots: Econometric methods for uncovering networks with an application to the Australian financial institutions. Journal of Banking & Finance, 61, S241-S255.
 - Balboa, M., López-Espinosa, G., & Rubia, A. (2015). Granger causality and systemic risk. Finance Research Letters, 15, 49-58.
