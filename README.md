@@ -1,6 +1,6 @@
 # Network-Analysis-R
 
-Teaching page (Drafted July 2022).
+Teaching page on aspects related to Network Analysis using the Statistical Software R (Drafted July 2022).
 
 ### Course Overview:
 
