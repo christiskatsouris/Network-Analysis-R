@@ -4,7 +4,7 @@ Teaching page on aspects related to Network Analysis using the Statistical Softw
 
 ### Course Overview:
 
-The main philosophy with this course is to combine traditional network analysis theory with more formal econometric specifications suitable for network data. Emphasis is given on modelling systemic risk, volatility spillover effects as well as financial interdependancies using graph representations. Although this course does not cover formal probablity theory for network analysis (to be covered in a different course), we introduce state-of-the-art techniques and programming software capabilities for each theme covered in the Syllabus.
+The main philosophy with this course is to combine traditional network analysis theory with more formal econometric specifications suitable for network data as well as computational statistics aspects. Emphasis is given on modelling systemic risk, volatility spillover effects as well as financial interdependancies using graph representations. Although this course does not cover formal probablity theory for network analysis (to be covered in a different course), we introduce state-of-the-art techniques and programming capabilities with R for each theme covered in the Syllabus.
 
 
 # [A]. Graph Centrality Measures
