@@ -457,7 +457,7 @@ In order to capture the main features of financial networks, one might be intere
 
 $$Y_t = \mathbf{A} . Y_{t-1} + \rho \mathbf{W} . Y_{t} + U_t,$$
 
-where $Y_t = (y_{1t},...,y_{Nt})^{\top}$ is a vector of dependent variables (e.g., excess returns), $\mathbf{W} \in \mathbb{R}$ is an (N x N) non-stochastic spatial matrix with a zero diagonal, $\rho$ is a scalar parameter and $U_t = (u_{1t},...,u_{Nt})^{\top}$ is a vector of i.i.d. disturbances with zero mean and finite variances. Furthermore, for the correct identification of the above specification we assume that there exists a power representation of $(I-\rho \mathbf{W})^{-1}$ given by  
+where $Y_t = (y_{1t},...,y_{Nt})^{\top}$ is a vector of dependent variables (e.g., excess returns), $\mathbf{W} \in \mathbb{R}$ is an (N x N) non-stochastic spatial matrix with a zero diagonal, $\rho$ is a scalar parameter and $U_t = (u_{1t},...,u_{Nt})^{\top}$ is a vector of i.i.d. disturbances with zero mean and finite variances. Thus, for the correct identification of the above specification we assume that there exists a power representation of $(I-\rho \mathbf{W})^{-1}$ given by  
 
 $$ (\mathbf{I}-\rho \mathbf{W})^{-1} = \sum_{j=0}^{\infty} \rho^j \mathbf{W}^j.$$ 
 
