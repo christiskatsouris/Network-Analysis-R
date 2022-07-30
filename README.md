@@ -162,6 +162,7 @@ Using the centrality measures introduced above and based on a partial-correlatio
 
 ## References
 
+- Abduraimova, K. (2022). Contagion and tail risk in complex financial networks. Journal of Banking & Finance, 106560.
 - Anufriev, M., & Panchenko, V. (2015). Connecting the dots: Econometric methods for uncovering networks with an application to the Australian financial institutions. Journal of Banking & Finance, 61, S241-S255.
 - Ballester, C., Calvó‐Armengol, A., & Zenou, Y. (2006). Who's who in networks. Wanted: The key player. Econometrica, 74(5), 1403-1417.
 - Drehmann, M., & Tarashev, N. (2013). Measuring the systemic importance of interconnected banks. Journal of Financial Intermediation, 22(4), 586-607.
