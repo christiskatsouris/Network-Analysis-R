@@ -467,10 +467,101 @@ betaOLS<-function(Ymat, W, Z)                        ### OLS estimation for thet
 
 ## Remarks:
 
-- The above R function provides the estimation procedure for the parameter beta of the NAR model. However, when additional structure is imposed (such as the grouped dependence), then the econometric identification becomes more complex and therefore for modelling purposes it requires the implementation of a commonly used statistical procedure such as the EM Algorithm (see, Wu C.J.(1983)) and this page [Computational Econometrics](https://github.com/christiskatsouris/Computational-Econometrics-R).
+- The above R function provides the estimation procedure for the parameter beta of the NAR model. However, when additional structure is imposed (such as the grouped dependence), then the econometric identification becomes more complex and so for modelling purposes it requires the implementation of a commonly used statistical procedure such as the EM Algorithm (see, Wu C.J.(1983)) and this page [Computational Econometrics](https://github.com/christiskatsouris/Computational-Econometrics-R).
 
 
-# Further Econometric Specifications
+```R
+
+### Implementation of the EM algorithm
+# Coding Procedure Reference: Associate Professor Xuening Zhu
+# Articles References: Zhu et al. (2017), Zhu et al. (2020).
+
+################################################
+### EM algorithm
+################################################
+
+EM.NAR<-function( Ymat =  Ymat, W = W, Z = Z, K = K, seed = F )
+{
+   Ymat =  Ymat
+   W = W
+   Z = Z
+   K = K
+
+  if (is.null(Z))
+    npara = 3   # number of parameters
+  else
+    npara = 3+ncol(Z)
+  
+  alpha = rep(1/K, K)
+  if (seed)
+    set.seed(1234)
+  
+  ### set initial values for the algorithm
+  nar_para = betaOLS(Ymat, W, Z)  # generate the initial estimator by the NAR model
+  if (K==1)
+    return(nar_para)
+  theta = t(sapply(nar_para$theta, function(x) runif(K, min = x-0.05, max = x+0.05))) # generate the initial values by small perturbations of NAR estimator
+  sigma = rep(nar_para$sigmaHat, K) # for simplicity set sigma the same for initial values
+  
+  ### get X variables
+  WYmat = W%*%Ymat
+  N     = nrow(Ymat)
+  Time  = ncol(Ymat)
+
+  X = as.matrix(X)         # all predictors
+  Y = as.vector(Ymat[,-1]) # the response variable
+  
+  ### start the EM algorithm
+  delta = 1
+  ezK = matrix(0, ncol = K, nrow = nrow(Ymat))
+  while(delta > 10^-5)
+  {
+    ### E-step
+    eps_hat = (Y - X%*%theta)%*%diag(x = 1/sigma)
+    for (k in 1:K)
+    {
+      eps_mat = matrix(eps_hat[,k], ncol = Time - 1)
+      ezK[,k] = -(Time-1)*log(sigma[k]) - rowSums(eps_mat^2/2) + log(alpha[k]) # for the stability, calculate the log-transformed probability first
+    }
+    
+    ezK = ezK - rowMeans(ezK)
+    ind = apply(ezK, 1, function(x) {
+      if (any(x>500)) # if it is large enough (>500), return the largest as 1 (otherwise the R will produce an NaN)
+        return(which.max(x)) # return which one is largest
+      return(0)
+    })
+    ezK = exp(ezK)/rowSums(exp(ezK)) # exp-transform back to obtain the probability
+    if (sum(ind)>0) { # code the values recorded in ind to be 0 and 1
+      ii = which(ind>0)
+      ezK[ii,] = 0
+      ezK[cbind(ii,ind[ii])] = 1
+    }
+    
+    ### M-step
+    theta0 = theta; sigma0 = sigma; alpha0 = alpha
+    for (k in 1:K)
+    {
+      zz = rep(ezK[,k], Time - 1)
+      X_new = zz*X
+      theta[,k] = ginv(crossprod(X_new, X))%*%crossprod(X_new, Y) # obtain the estimator for theta
+      sigma[k] = sqrt(sum(zz*(Y - X%*%theta[,k])^2)/sum(zz)) # obtain the estimator for sigma
+      
+      }
+    }
+     alpha = colSums(ezK)/N # obtain the estimator for alpha
+    delta = max(abs(c(theta - theta0, sigma - sigma0, alpha - alpha0)))
+  }
+  return( list(theta = theta, alpha = alpha, sigma = sigma, ezK = ezK) )
+}
+
+```
+
+### Task
+
+Begin by studying the related statistical theory for the EM algorithm. Then, using on a dataset of your choice run the implementation of the EM algorithm for the NAR model step-by-step (as given above) and report related aspects of the computational procedure such as convergence rate (and computational time) with respect to the sample size, description of the updating steps as well as the main findings (e.g., parameter estimates, standard errors, confidence intervals etc.) based on the selected dataset.  
+
+
+# [C1]. Further Econometric Specifications
 
 In order to capture the main features of financial networks, one might be interested to examine the simultaneous features of Granger causality and spatial dependence (or graph dependence in the broader sence) with a structural econometrics model as below
 
