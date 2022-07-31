@@ -475,6 +475,10 @@ If $| \rho | < 1$ then $(I-\rho \mathbf{W})$ is nonsingular and has a unique sol
 
 Furthermore, under the above specification, the term $A Y_{t-1}$ captures the Granger causality effects between the components of the vector valued series $Y_t$ and its lag term $Y_{t-1}$. Moreover, the second term of the model $\rho W Y_{t}$ captures the spatial dependence (i.e. the simultaneous dependence) of the network since it includes a spatial lagged of the dependent variable along with the weight matrix $\mathbf{W}$ which is exogenously defined in the dynamics of the system (a procedure is followed to determine the elements of $W_{ij}$). We leave the above considerations for future research (see, [Active Research Project](https://www.researchgate.net/project/The-Econometrics-of-Financial-Networks-Theory-and-Applications)). A related framework which focuses on Granger Causality detection using high dimensional systems of neural networks is proposed by [Mancini et al. (2021a)](https://www.sciencedirect.com/science/article/pii/S0169207020301588).
 
+### Remarks
+
+- Notice that when considering the theoretical underpinnings of feedforward algorithms when applying neural network modelling methodologies based on time series data, this can be done within the framework of Hidden Markov Models. Related methodologies and theory can be found on the website of [Professor John Aston](https://scholar.google.com/citations?user=YPJIv4QAAAAJ&hl=en).   
+
 ## References
 
 On Time Series Specifications for Network Data:
