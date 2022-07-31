@@ -460,13 +460,14 @@ betaOLS<-function(Ymat, W, Z)                        ### OLS estimation for thet
   return( list( theta = thetaEst, covHat = covHat, sigmaHat = sqrt(sigmaHat2)) )           
 }
 
-# Reference: Zhu et al. (2017), Zhu et al. (2020).
+# Coding Procedure Reference: Associate Professor Xuening Zhu
+# Articles References: Zhu et al. (2017), Zhu et al. (2020).
 
 ```
 
 ## Remarks:
 
-- The above R function provides the estimation procedure for the parameter beta of the NAR model. However, when additional structure is imposed (such as the grouped dependence), then the econometric identification becomes requires to implement a commonly used algorithm from [Computational Econometrics](https://github.com/christiskatsouris/Computational-Econometrics-R) such as the EM Algorithm (see, Wu C.J.(1983)).  
+- The above R function provides the estimation procedure for the parameter beta of the NAR model. However, when additional structure is imposed (such as the grouped dependence), then the econometric identification becomes more complex and therefore for modelling purposes it requires the implementation of a commonly used computational procedures such as the EM Algorithm (see, Wu C.J.(1983)) and this page [Computational Econometrics](https://github.com/christiskatsouris/Computational-Econometrics-R).
 
 
 # Further Econometric Specifications
