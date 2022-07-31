@@ -513,7 +513,7 @@ EM.NAR<-function( Ymat =  Ymat, W = W, Z = Z, K = K, seed = F )
   
   ### start the EM algorithm
   delta = 1
-  ezK = matrix(0, ncol = K, nrow = nrow(Ymat))
+  ezK   = matrix(0, ncol = K, nrow = nrow(Ymat))
   while(delta > 10^-5)
   {
     ### E-step
@@ -521,17 +521,22 @@ EM.NAR<-function( Ymat =  Ymat, W = W, Z = Z, K = K, seed = F )
     for (k in 1:K)
     {
       eps_mat = matrix(eps_hat[,k], ncol = Time - 1)
-      ezK[,k] = -(Time-1)*log(sigma[k]) - rowSums(eps_mat^2/2) + log(alpha[k]) # for the stability, calculate the log-transformed probability first
+      
+      # As a stability condition it requires to calculate the log-transformed probability first
+      ezK[,k] = -(Time-1)*log(sigma[k]) - rowSums(eps_mat^2/2) + log(alpha[k]) 
     }
     
     ezK = ezK - rowMeans(ezK)
-    ind = apply(ezK, 1, function(x) {
+    ind = apply(ezK, 1, function(x) 
+    {
       if (any(x>500)) # if it is large enough (>500), return the largest as 1 (otherwise the R will produce an NaN)
         return(which.max(x)) # return which one is largest
       return(0)
     })
+    
     ezK = exp(ezK)/rowSums(exp(ezK)) # exp-transform back to obtain the probability
-    if (sum(ind)>0) { # code the values recorded in ind to be 0 and 1
+    if (sum(ind)>0) 
+    { # code the values recorded in ind to be 0 and 1
       ii = which(ind>0)
       ezK[ii,] = 0
       ezK[cbind(ii,ind[ii])] = 1
@@ -541,15 +546,15 @@ EM.NAR<-function( Ymat =  Ymat, W = W, Z = Z, K = K, seed = F )
     theta0 = theta; sigma0 = sigma; alpha0 = alpha
     for (k in 1:K)
     {
-      zz = rep(ezK[,k], Time - 1)
-      X_new = zz*X
-      theta[,k] = ginv(crossprod(X_new, X))%*%crossprod(X_new, Y) # obtain the estimator for theta
-      sigma[k] = sqrt(sum(zz*(Y - X%*%theta[,k])^2)/sum(zz)) # obtain the estimator for sigma
+      zz        = rep(ezK[,k], Time - 1)
+      X_new     = zz*X
+      theta[,k] = ginv(crossprod(X_new, X))%*%crossprod(X_new, Y)  # obtain the estimator for theta
+      sigma[k]  = sqrt(sum(zz*(Y - X%*%theta[,k])^2)/sum(zz))      # obtain the estimator for sigma
       
       }
     }
      alpha = colSums(ezK)/N # obtain the estimator for alpha
-    delta = max(abs(c(theta - theta0, sigma - sigma0, alpha - alpha0)))
+    delta  = max(abs(c(theta - theta0, sigma - sigma0, alpha - alpha0)))
   }
   return( list(theta = theta, alpha = alpha, sigma = sigma, ezK = ezK) )
 }
