@@ -160,6 +160,8 @@ Interestingly, this expression shows that each eigenvalue is the sum of a weight
 
 A related example from financial economics is to investigate the relation between portfolio performance measures and network topology. In other words, the underline graph structure at a given time period provides a representation of the degree of interdependencies in the financial network and consequently a good way for measuring phenomena such as financial contagion, volatility spillover effects as well as systemic risk. A related empirical study to this direction is to investigate the relation between portfolio performance measures and network centrality. In other words, the portfolio optimization problem under appropriate modifications (e.g., on the optimization function and the constraints) can be employed as a shrinkage methodology (see, Assignment 1 on the optimal portfolio problem). 
 
+Furthermore, a second component of this stream of literature focuses more on the financial theory side of things and more specifically how firm structure (i.e., related organization of any form) affects both network centrality as well as investment performance (see, Rossi et al. (2018)). 
+
 ## Assignment 1
 
 Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Specifically, based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). Then, in order to research the question on how centrality could be affecting the min-variance optimization problem use a suitable methodology that either removes central nodes automatically or via an appropriate penalization/shrinkage method. See also the [Computational-Econometrics-R](https://github.com/christiskatsouris/Computational-Econometrics-R) page which has helpful examples on optimization techniques. 
@@ -176,6 +178,7 @@ Using the centrality measures introduced above and based on a partial-correlatio
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
 - Le, L. T., Eliassi-Rad, T., & Tong, H. (2015, June). MET: A fast algorithm for minimizing propagation in large graphs with small eigen-gaps. In Proceedings of the 2015 SIAM International Conference on Data Mining (pp. 694-702). Society for Industrial and Applied Mathematics.
+- Rossi, A. G., Blake, D., Timmermann, A., Tonks, I., & Wermers, R. (2018). Network centrality and delegated investment performance. Journal of Financial Economics, 128(1), 183-206.
 - Vargas Jr, R., Waldron, A., Sharma, A., Flórez, R., and Narayan, D. A. (2017). A graph theoretic analysis of leverage centrality. AKCE International Journal of Graphs and Combinatorics, 14(3):295–306.
 - Van Mieghem, P. (2014). Graph eigenvectors, fundamental weights and centrality metrics for nodes in networks. arXiv preprint arXiv:1401.4580.
 
