@@ -160,7 +160,7 @@ Interestingly, this expression shows that each eigenvalue is the sum of a weight
 
 A related example from financial economics is to investigate the relation between portfolio performance measures and network topology. In other words, the underline graph structure at a given time period provides a representation of the degree of interdependencies in the financial network and consequently a good way for measuring phenomena such as financial contagion, volatility spillover effects as well as systemic risk. A related empirical study to this direction is to investigate the relation between portfolio performance measures and network centrality. In other words, the portfolio optimization problem under appropriate modifications (e.g., on the optimization function and the constraints) can be employed as a shrinkage methodology (see, Assignment 1 on the optimal portfolio problem). 
 
-Furthermore, a second component of this stream of literature focuses more on the financial theory side of things and more specifically how firm structure (i.e., related organization of any form) affects both network centrality as well as investment performance (see, Rossi et al. (2018)). 
+Furthermore, a second component of this stream of literature focuses more on the financial theory side of things and more specifically how firm structure (i.e., related organization of any form) affects both network centrality as well as investment performance (see, Rossi et al. (2018) and Larckeret al. (2013)). 
 
 ## Assignment 1
 
@@ -176,6 +176,7 @@ Using the centrality measures introduced above and based on a partial-correlatio
 - Katsouris, C. (2021a). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint arXiv:2112.12031.
 - Katsouris C. (2021b). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. Working paper. University of Southampton.
 - Katz, L. (1953). A new status index derived from sociometric analysis. Psychometrika, 18(1):39–43
+- Larcker, D. F., So, E. C., & Wang, C. C. (2013). Boardroom centrality and firm performance. Journal of Accounting and Economics, 55(2-3), 225-250.
 - Liao, H., Mariani, M. S., Medo, M., Zhang, Y. C., & Zhou, M. Y. (2017). Ranking in evolving complex networks. Physics Reports, 689, 1-54.
 - Le, L. T., Eliassi-Rad, T., & Tong, H. (2015, June). MET: A fast algorithm for minimizing propagation in large graphs with small eigen-gaps. In Proceedings of the 2015 SIAM International Conference on Data Mining (pp. 694-702). Society for Industrial and Applied Mathematics.
 - Rossi, A. G., Blake, D., Timmermann, A., Tonks, I., & Wermers, R. (2018). Network centrality and delegated investment performance. Journal of Financial Economics, 128(1), 183-206.
