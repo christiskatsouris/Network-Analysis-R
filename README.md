@@ -491,6 +491,7 @@ Furthermore, under the above specification, the term $A Y_{t-1}$ captures the Gr
 
 On Time Series Specifications for Network Data:
 
+- Andreou, E., Gagliardini, P., Ghysels, E., & Rubin, M. (2019). Inference in Group Factor Models With an Application to Mixed‐Frequency Data. Econometrica, 87(4), 1267-1305.
 - Amillotta, M., Fokianos, K., & Krikidis, I. (2022, February). Generalized Linear Models Network Autoregression. In International Conference on Network Science (pp. 112-125). Springer, Cham.
 - Callot, L., Caner, M., Önder, A. Ö., & Ulaşan, E. (2021). A nodewise regression approach to estimating large portfolios. Journal of Business & Economic Statistics, 39(2), 520-531.
 - Krackhardt, D. (1988). Predicting with networks: Nonparametric multiple regression analysis of dyadic data. Social networks, 10(4), 359-381.
