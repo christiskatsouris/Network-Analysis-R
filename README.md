@@ -162,6 +162,14 @@ A related example from financial economics is to investigate the relation betwee
 
 A second aspect related to this stream of literature, focuses more on the financial theory side of things and more specifically how firm structure (i.e., related firm organization of any form) affects both network centrality as well as investment performance (see, Rossi et al. (2018) and Larckeret al. (2013)). Furthermore, considering that firm organization theory has been developed based on discussions that provide a parallelism of decision making to how the human brain works (related literature is beyond the scope of this teaching page), then one might even consider a related neural network application to investigate the sensitivity of the 'operating environment' (i.e., decision making in organizations in the case of firm theory versus the structural/underline features of the neural network), to out-of-sample performance (similar to the portfolio performance using a forecasting scheme). A related study that explores this concept using a formal statistical framework with neural networks is proposed by [Mancini et al. (2021b)](https://www.sciencedirect.com/science/article/pii/S0893608021003257).    
 
+```R
+
+# Examples in R on Firm Centrality and Portfolio Performance
+
+
+
+```
+
 ## Assignment 1
 
 Using the centrality measures introduced above and based on a partial-correlation network as presented in the framework of Anufriev and Panchenko (2015)   examine the effect of network topology to the optimal portfolio choice problem. Specifically, based on the GMVP (min-variance optimization problem), set-up the optimization function using the full investment constraint as well as a constraint on weights being strictly in the interval (0,1). Then, in order to research the question on how centrality could be affecting the min-variance optimization problem use a suitable methodology that either removes central nodes automatically or via an appropriate penalization/shrinkage method. See also the [Computational-Econometrics-R](https://github.com/christiskatsouris/Computational-Econometrics-R) page which has helpful examples on optimization techniques. 
