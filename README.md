@@ -565,6 +565,8 @@ EM.NAR<-function( Ymat =  Ymat, W = W, Z = Z, K = K, seed = F )
 
 Begin by studying the related statistical theory for the EM algorithm. Then, using on a dataset of your choice run the implementation of the EM algorithm for the NAR model step-by-step (as given above) and report related aspects of the computational procedure such as convergence rate (and computational time) with respect to the sample size, description of the updating steps as well as the main findings (e.g., parameter estimates, standard errors, confidence intervals etc.) based on the selected dataset. 
 
+As an additional step, write your own coding procedure (with the help of the above two R functions), that performs the prediction step for the Grouped NAR model.  
+
 HINT: Suitable datasets that can be employed include cross-sectional data of stock returns. In this case the adjacency matrix has to be constructed before proceeding with estimation and inference with a network-based modelling approach, based on a given statistical methodology that specifies the graph structure (see Section 2 above). Furthermore, we can also consider 'natural' network data - plenty of applications can be found on the website of [Network Data Repository](https://networkrepository.com/index.php).  
 
 
