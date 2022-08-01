@@ -586,7 +586,7 @@ Furthermore, under the above specification, the term $A Y_{t-1}$ captures the Gr
 
 ### Remarks
 
-- Notice that when considering the theoretical underpinnings of feedforward algorithms when applying neural network modelling methodologies based on time series data, this can be done within the framework of Hidden Markov Models. Related methodologies and theory can be found on the website of [Professor John Aston](https://scholar.google.com/citations?user=YPJIv4QAAAAJ&hl=en). Moreover, the lecture notes of the course: 'Applied Statistics - Part III. Hidden Markov Models' (2011-2012), Department of Statistics, University of Warwick, are also helpful.    
+- Notice that when considering the theoretical underpinnings of feedforward algorithms when applying neural network modelling methodologies based on time series data, this can be done within the framework of Hidden Markov Models. Related methodologies and theory can be found on the homepage of [Professor John Aston](http://www.statslab.cam.ac.uk/~jada2/) ([Google Scholar](https://scholar.google.com/citations?user=YPJIv4QAAAAJ&hl=en)). Moreover, the lecture notes of the course: 'Applied Statistics - Part III. Hidden Markov Models' (2011-2012), Department of Statistics, University of Warwick, are also helpful.    
 
 ## References
 
