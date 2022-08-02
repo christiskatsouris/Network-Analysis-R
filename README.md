@@ -117,19 +117,21 @@ leverage <- function (A, weighted = TRUE)
   {B<-binarize(A)
   }else{B<-A}
   
-  con<-colSums(B)
-  
-  lev<-matrix(1,nrow=nrow(B),ncol=1)
+  con <- colSums(B)
+  lev <- matrix(1,nrow=nrow(B),ncol=1)
   
   for(i in 1:ncol(B))
-  {lev[i]<-(1/con[i])*sum((con[i]-con[which(B[,i]!=0)])/(con[i]+con[which(B[,i]!=0)]))}
+  {
+  lev[i]<-(1/con[i])*sum((con[i]-con[which(B[,i]!=0)])/(con[i]+con[which(B[,i]!=0)]))
+  }
   
   for(i in 1:nrow(lev))
     if(is.na(lev[i,]))
-    {lev[i,]<-0}
+    {
+    lev[i,]<-0
+    }
   
-  lev <- as.vector(lev)
-  
+  lev        <- as.vector(lev)
   names(lev) <- colnames(A)
   
   return(lev)
