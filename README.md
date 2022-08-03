@@ -1,4 +1,4 @@
-# Network-Analysis-R
+# Network-Data-Analysis-R
 
 Teaching page on aspects related to Network Analysis using the Statistical Software R (Drafted July 2022).
 
