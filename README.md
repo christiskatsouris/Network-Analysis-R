@@ -315,7 +315,7 @@ V5  0  1  0  1  0
 
 - Linear Granger causality as first introduced by Granger (1969, 1980) has been further tested in various frameworks (e.g., VAR(p) models). Specifically, let two time series be $Y_{i,t}$ and $Y_{j,t}$, for $t = 1,...,T$ with the corresponding information set available at time $t-1$ be $I_{t-1} \equiv ( I_{i, t-1}, I_{j, t-1} )$. Then we say that if there are enough statistical evidence to support the hypothesis 
 
-$$ H_1: F( Y_{i,t} | I_{i, t-1} ) \neq  F( Y_{i,t} | I_{t-1} ) \ \  \text{for} \ \forall \ \ \ \ F( .| I_{t-1}) \in \mathbb{R}.$$
+$$ H_1: F( Y_{i,t} | I_{i, t-1} ) \neq  F( Y_{i,t} | I_{t-1} ) \ \  \text{for} \ \forall \  \ F( .| I_{t-1}) \in \mathbb{R}.$$
 
 - Then there is additional information in the set of $Y_{j,t-1}$  which helps predict the future values of $Y_{i,t-1}$, that is, time series $Y_{j,t}$ is said to "Granger-cause" $Y_{i,t}$, where $t = 1,...,T$. 
 
