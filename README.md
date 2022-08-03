@@ -313,7 +313,7 @@ V5  0  1  0  1  0
 
 ### Remarks
 
-- Linear Granger causality as first introduced by Granger (1969) and Granger (1980) has been further tested in various frameworks (e.g., VAR(p) models). Specifically, let two time series be $\{Y_{i,t}\}_{t=1}^T$ and $\{Y_{j,t}\}_{t=1}^T$ with the corresponding information set available at time $t-1$ be $I_{t-1} \equiv ( I_{i, t-1}, I_{j, t-1} )$. Then we say that if there are enough statistical evidence to support the hypothesis 
+- Linear Granger causality as first introduced by Granger (1969, 1980) has been further tested in various frameworks (e.g., VAR(p) models). Specifically, let two time series be $Y_{i,t}$ and $Y_{j,t}$, for $t = 1,...,T$ with the corresponding information set available at time $t-1$ be $I_{t-1} \equiv ( I_{i, t-1}, I_{j, t-1} )$. Then we say that if there are enough statistical evidence to support the hypothesis 
 
 $$ H_1: F( Y_{i,t} | I_{i, t-1} ) \neq  F( Y_{i,t} | I_{t-1} ) ,  \text{for} \ \forall \ F( .| I_{t-1}) \in \mathbb{R}.$$
 
