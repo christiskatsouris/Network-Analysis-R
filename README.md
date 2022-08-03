@@ -325,7 +325,7 @@ $$ \Delta Y_t = \alpha + \sum_{i=1}^p \beta_{yi} \Delta Y_{t-1} + \sum_{i=1}^p \
 
 where $\Delta X$ and $\Delta Y$ are stationary time series. Thus, when the coefficients $\beta_{xi}$ are jointly significant we reject the null hypothesis that $X_t$ does not Granger cause $Y_t$ based on the standard F-test.
 
-- Lastly, Finally from a more probabilistic point of view, for example, Valjarević and Petrović (2012) examine the equivalence of statistical causality and the orthogonality property of martingales. Their theorem proves that two independent martingales are orthogonal to each other if and only if each of them is caused by itself. The application of this result can be found in trading strategies. In particular, a trading strategy is locally risk-minimizing if and only if the cost process of the trading strategy and the unpredictable, martingale part of the price fluctuation of a stock are independent and caused by themselves. 
+- Lastly, from a more probabilistic point of view, for example, Valjarević and Petrović (2012) examine the equivalence of statistical causality and the orthogonality property of martingales. Their theorem proves that two independent martingales are orthogonal to each other if and only if each of them is caused by itself. The application of this result can be found in trading strategies. In particular, a trading strategy is locally risk-minimizing if and only if the cost process of the trading strategy and the unpredictable, martingale part of the price fluctuation of a stock are independent and caused by themselves. 
 
 
 ## Example 3
