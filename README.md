@@ -317,7 +317,7 @@ V5  0  1  0  1  0
 
 $$ H_1: F( Y_{i,t} | I_{i, t-1} ) \neq  F( Y_{i,t} | I_{t-1} ) ,  \text{for} \ \forall \ F( .| I_{t-1}) \in \mathbb{R}.$$
 
-then there is additional information in the set of $Y_{j,t-1}$  which helps predict the future values of $Y_{i,t-1}$, that is, time series $\{Y_{j,t}\}_{t=1}^T$ is said to "Granger-cause" $\{Y_{i,t}\}_{t=1}^T$. 
+- Then there is additional information in the set of $Y_{j,t-1}$  which helps predict the future values of $Y_{i,t-1}$, that is, time series $Y_{j,t}$ is said to "Granger-cause" $Y_{i,t}$, where $t = 1,...,T$. 
 
 
 ## Example 3
