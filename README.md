@@ -325,6 +325,8 @@ $$ \Delta Y_t = \alpha + \sum_{i=1}^p \beta_{yi} \Delta Y_{t-1} + \sum_{i=1}^p \
 
 where $\Delta X$ and $\Delta Y$ are stationary time series. Thus, when the coefficients $\beta_{xi}$ are jointly significant we reject the null hypothesis that $X_t$ does not Granger cause $Y_t$ based on the standard F-test.
 
+- Lastly, Finally from a more probabilistic point of view, for example, Valjarević and Petrović (2012) examine the equivalence of statistical causality and the orthogonality property of martingales. Their theorem proves that two independent martingales are orthogonal to each other if and only if each of them is caused by itself. The application of this result can be found in trading strategies. In particular, a trading strategy is locally risk-minimizing if and only if the cost process of the trading strategy and the unpredictable, martingale part of the price fluctuation of a stock are independent and caused by themselves. 
+
 
 ## Example 3
 
@@ -421,7 +423,7 @@ Calabrese, R., Elkink, J. A., & Giudici, P. S. (2017). Measuring bank contagion 
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
 - Tobias, A., & Brunnermeier, M. K. (2016). CoVaR. The American Economic Review, 106(7), 1705.
 - Yang, C., Chen, Y., Niu, L., & Li, Q. (2014). Cointegration analysis and influence rank—A network approach to global stock markets. Physica A: Statistical Mechanics and its Applications, 400, 168-185.
-
+- Valjarević, D., & Petrović, L. (2012). Statistical causality and orthogonality of local martingales. Statistics & Probability Letters, 82(7), 1326-1330.
 
 
 # [C]. High Dimensional Network Data Analysis 
