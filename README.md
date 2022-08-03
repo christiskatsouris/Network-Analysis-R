@@ -319,11 +319,11 @@ $$ H_1: F( Y_{i,t} | I_{i, t-1} ) \neq  F( Y_{i,t} | I_{t-1} ) \ \  \text{for} \
 
 - Then there is additional information in the set of $Y_{j,t-1}$  which helps predict the future values of $Y_{i,t-1}$, that is, time series $Y_{j,t}$ is said to "Granger-cause" $Y_{i,t}$, where $t = 1,...,T$. 
 
-- Generally, the notion of Granger Causality provides a suitable mechanism for the identification of causal links in graph structures, using a formal statistical methodology.  Another example, of a suitable such mechanism is to apply a Granger Causality statistic in the tails of the conditional distributions, testing this way  the occurrence of a left or right tail event of a random variable is systematically followed (in a statistical sense) by the occurrence of a left or right tail event of a second random variable. Specifically, a GC test is based on the following econometric specification 
+- Generally, the notion of Granger Causality provides a suitable mechanism for the identification of causal links in graph structures, using a formal statistical methodology.  Another example, of a suitable such mechanism is to apply a Granger Causality statistic in the tails of the conditional distributions, testing this way  the occurrence of a left or right tail event of a random variable is systematically followed (in a statistical sense) by the occurrence of a left or right tail event of a second random variable. A GC test is based on the following econometric specification 
 
 $$ \Delta Y_t = \alpha + \sum_{i=1}^p \beta_{yi} \Delta Y_{t-1} + \sum_{i=1}^p \beta_{xi} \Delta X_{t-1} + \epsilon_t,$$
 
-where $\Delta X$ and $\Delta Y$ are stationary time series. Thus, when the coefficients$\beta_{xi}$ are jointly significant we reject the null hypothesis that $X_t$ does not Granger cause $Y_t$ based on the standard F-test.
+where $\Delta X$ and $\Delta Y$ are stationary time series. Thus, when the coefficients $\beta_{xi}$ are jointly significant we reject the null hypothesis that $X_t$ does not Granger cause $Y_t$ based on the standard F-test.
 
 
 ## Example 3
