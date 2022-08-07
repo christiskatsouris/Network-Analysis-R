@@ -392,7 +392,7 @@ mdl
 
 ### Remarks
 
-- Further examples of algorithms can be found on various 'R help' websites which explain step-by-step the syntax of main R commands and provide illustrations of statistical procedures via output examples using R code fragements (see, [UCLA Advanced Research Computing: Statistical Methods and Data Analytics](https://stats.oarc.ucla.edu/r/codefragments/simulating_network/)). 
+Further examples of algorithms can be found on various 'R help' websites which explain step-by-step the syntax of main R commands and provide illustrations of statistical procedures via output examples using R code fragements (see, [UCLA Advanced Research Computing: Statistical Methods and Data Analytics](https://stats.oarc.ucla.edu/r/codefragments/simulating_network/)). 
 
 
 ## Assignment 2
