@@ -390,6 +390,11 @@ mdl
 
 ```
 
+### Remarks
+
+- Further examples of algorithms can be found on various 'R help' websites which explain step-by-step the syntax of main R commands and provide illustrations of statistical procedures via output examples using R code fragements (see, [UCLA Advanced Research Computing: Statistical Methods and Data Analytics](https://stats.oarc.ucla.edu/r/codefragments/simulating_network/)). 
+
+
 ## Assignment 2
 
 Using a modelling approach of your choice, simulate network data and obtain the adjacency matrix of the induced graph. Furthermore, consider a suitable econometric specification for modelling the dependence structre of the time series data under network dependence. Assume that the simulated data generating process is correctly specified.  
