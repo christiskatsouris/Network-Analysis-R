@@ -182,7 +182,7 @@ $$ w_t = \alpha + \beta c_t + \gamma \sigma_t + \epsilon_t.$$
 
 ### Regressions B: Centrality Measure on Firm Characteristics 
 
-In this case, we focus on the induced graph topology, as a measure of financial connectedness, on a given 'snapshot window' (i.e., a static model that corresponds to a specific time within the out-of-sample period). From the statistics point of view, the response variable is endogenously generated from the network structure, based on the corresponding adjacency matrix, estimated from the risk matrix proposed by Katsouris (2021). Then, the explanatory variables correspond to the firm characteristics (four different variables or factors) that can explain overall firm performance and fitness.   
+In this case, we focus on the induced graph topology, as a measure of financial connectedness, on a given 'snapshot window' (i.e., a static model that corresponds to a specific time within the out-of-sample period). From the statistics point of view, the response variable is endogenously generated from the network structure, based on the adjacency matrix, estimated from the risk matrix proposed by Katsouris (2021). Then, the explanatory variables correspond to the firm characteristics (four different variables or factors) that can explain overall firm performance and fitness.   
 
 $$ c_t = \delta_0 + \boldsymbol{\delta}_1^{\prime} \boldsymbol{f}_t + u_t.$$
 
