@@ -232,7 +232,7 @@ F-statistic: 3.904 on 4 and 58 DF,  p-value: 0.007106
 
 ### Remark:
 
-The above example demonstrates that the aggregated firm characteristics, estimated using within-firms means of the individual firm-specific characteristics, do not have explanatory power throughout the monitoring period. During periods of increased volatility and market exuberance, these variables seem that they are not particularly helpful in explaining the induced centrality obtained from the graph structure. Specifically, this could be a preliminary indication of ommitted variables such as macroeconomic and financial conditions, which would have additional explanatory power especially during periods of a financial crisis.    
+The above example demonstrates that the aggregated firm characteristics, estimated using within-firms means of the individual firm-specific characteristics, do not have explanatory power throughout the monitoring period. During periods of increased volatility and market exuberance, these variables seem that they are not particularly helpful in explaining the induced centrality obtained from the graph structure. Specifically, this could be a preliminary indication of ommitted variables such as macroeconomic and financial conditions, which would have additional explanatory power especially during periods of a financial crisis. Furthermore, since these preliminary estimations obtained from the static regressions show the presence of changing dynamics and temporal dependence, a suitable modeling approach for the generated set of response and explantory variables will be the implementation of a Dynamic Panel Data Model.     
 
 ## Assignment 1
 
