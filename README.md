@@ -304,7 +304,7 @@ network_matrix <- matrix(round(runif(num_nodes*num_nodes)), nrow = num_nodes, nc
 
 ```
 
-## Example 1
+## Example 2
 
 Using the R package ['NetworkRiskMeasures'](https://cran.r-project.org/web/packages/NetworkRiskMeasures/index.html) simulate a set of variables that represent a financial network. 
 
@@ -352,7 +352,7 @@ sim_data <- data.frame(bank=paste0("b", 1:125),assets=assets,liabilities=liabili
 
 ```
 
-## Example 2
+## Example 3
 
 Using the R package ['igraph'](https://cran.r-project.org/web/packages/nets/index.html) construct an adjacency matrix based on a Granger Causality network.  
 
@@ -402,7 +402,7 @@ where $\Delta X$ and $\Delta Y$ are stationary time series. Thus, when the coeff
 - Lastly, from a more probabilistic point of view, for example, Valjarević and Petrović (2012) examine the equivalence of statistical causality and the orthogonality property of martingales. Their theorem proves that two independent martingales are orthogonal to each other if and only if each of them is caused by itself. The application of this result can be found in trading strategies. In particular, a trading strategy is locally risk-minimizing if and only if the cost process of the trading strategy and the unpredictable, martingale part of the price fluctuation of a stock are independent and caused by themselves. 
 
 
-## Example 3
+## Example 4
 
 Using the R package ['nets'](https://cran.r-project.org/web/packages/nets/index.html) simulate time series data with network dependence. Notice that the notion of 'network dependence' is not formally mathematically defined in the literature, so currently there is no formal definition (to the best of my knowledge). This is an active research field, so many open research questions remain.
 
@@ -530,7 +530,7 @@ $$
 
 Further examples we can examine include the statistical estimation and inference for the Network Vector Autoregression model (see, [Zhu et al. (2017)](https://projecteuclid.org/journals/annals-of-statistics/volume-45/issue-3/Network-vector-autoregression/10.1214/16-AOS1476.full)); although these aspects correspond to more advanced topics in Network Analysis Using R. Furthermore, an extension of the particular framework is presented by [Zhu et al. (2020)](https://www.jstor.org/stable/26968936#metadata_info_tab_contents) who consider the estimation and inference problem for the NVAR model under grouped structure. 
 
-## Example 4
+## Example 5
 
 ```R
 
