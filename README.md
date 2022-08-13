@@ -191,10 +191,6 @@ $$ c_t = \delta_0 + \boldsymbol{\delta}_1^{\prime} \boldsymbol{f}_t + u_t.$$
 Call:
 lm(formula = cc ~ BS_firm_roll_means)
 
-Residuals:
-       Min         1Q     Median         3Q        Max 
--1.104e-04 -2.700e-05 -7.586e-06  3.193e-05  8.321e-05 
-
 Coefficients:
                      Estimate Std. Error t value Pr(>|t|)    
 (Intercept)          0.446423   0.159877   2.792 0.007077 ** 
