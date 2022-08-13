@@ -140,7 +140,6 @@ leverage <- function (A, weighted = TRUE)
   
   return(lev)
 }  
-
 ```
 
 Therefore, this Section introduces various centrality measures which can be employed in order to identify the main features regarding the network topology of the graph with a given structure. Lastly, we introduce a useful result, that is, the Perron-Frobenius Theorem.
