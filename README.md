@@ -168,6 +168,11 @@ A related example from financial economics is to investigate the relation betwee
 
 A second aspect related to this stream of literature, focuses more on the financial theory side of things and more specifically how firm structure (i.e., related firm organization of any form) affects both network centrality as well as investment performance (see, Rossi et al. (2018) and Larckeret al. (2013)). Furthermore, considering that firm organization theory has been developed based on discussions that provide a parallelism of decision making to how the human brain works (related literature is beyond the scope of this teaching page), then one might even consider a related neural network application to investigate the sensitivity of the 'operating environment' (i.e., decision making in organizations in the case of firm theory versus the structural/underline features of the neural network), to out-of-sample performance (similar to the portfolio performance using a forecasting scheme). A related study that explores this concept using a formal statistical framework with neural networks is proposed by [Mancini et al. (2021b)](https://www.sciencedirect.com/science/article/pii/S0893608021003257).    
 
+### Optimal Portfolio weights on Centrality Regressions
+ 
+$$ w_t = \alpha + \beta c_t + \gamma \sigma_t + \epsilon_t.$$
+
+
 ```R
 
 # Examples in R on Firm Centrality and Portfolio Performance
