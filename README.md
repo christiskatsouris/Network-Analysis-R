@@ -230,10 +230,10 @@ F-statistic: 3.904 on 4 and 58 DF,  p-value: 0.007106
 
 ```
 
-•	Firm Specific-Variable 1: (LEV) Leverage = Total Assets / Total Equity
-•	Firm Specific-Variable 2: (MM)  Maturity Mismatch = Short term Debt / Total liabilities
-•	Firm Specific-Variable 3: (SIZE) Size = Log(Total Book Equity)
-•	Firm Specific-Variable 4: (MTB) Market-to-book = Market Value of Total Equity / Book Value of Total Equity
+-	Firm Specific-Variable 1: (LEV) Leverage = Total Assets / Total Equity
+-	Firm Specific-Variable 2: (MM)  Maturity Mismatch = Short term Debt / Total liabilities
+-	Firm Specific-Variable 3: (SIZE) Size = Log(Total Book Equity)
+-	Firm Specific-Variable 4: (MTB) Market-to-book = Market Value of Total Equity / Book Value of Total Equity
 
 
 ### Remarks:
