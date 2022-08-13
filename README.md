@@ -216,10 +216,6 @@ F-statistic: 12.22 on 4 and 58 DF,  p-value: 2.868e-07
 Call:
 lm(formula = cc ~ BS_firm_roll_means)
 
-Residuals:
-       Min         1Q     Median         3Q        Max 
--1.282e-04 -3.412e-05  2.471e-06  3.947e-05  1.083e-04 
-
 Coefficients:
                      Estimate Std. Error t value Pr(>|t|)
 (Intercept)         -0.410170   0.302005  -1.358    0.180
