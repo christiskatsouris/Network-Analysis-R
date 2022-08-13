@@ -153,7 +153,7 @@ $\textbf{Theorem:}$ (Perron-Frobenius theorem) If A is a positive matrix, there 
 
 If $\lambda(A) = \{ x : det( \mathbf{A} - x \mathbf{I} ) = 0 \}$ then $\lambda_1(A) \geq ... \geq \lambda_n(A)$ where e.g., $\lambda_{max}(A) = \lambda_1(A)$ and $\lambda_{min }(A) = \lambda_1(A)$.
 
-### Remarks
+### Remarks:
 
 - Notice that in general a matrix can have complex eigenvalues and eigenvectors, but an adjacency matrix of a graph is a non-negative matrix. Thus, for any non-negative matrix, the Perron-Frobenius theorem guarantees that there exists an eigenvalue which is real and larger than or equal to all other eigenvalues in magnitude. The largest eigenvalue is called the Perron-Frobenius eigenvalue of the matrix, which we will denote by $\lambda_1(\mathbf{A})$. Furthermore, the theorem states that there exists an eigenvector of $\mathbf{A}$ corresponding to $\lambda_1(\mathbf{A})$ all of which components are real and non-negative.
 - Furthermore, according to [Katsouris (2021a)](https://arxiv.org/abs/2112.12031) a simple application of the Spectral Vector Decomposition (SVD) on the covariance matrix yields the following expression 
@@ -230,7 +230,13 @@ F-statistic: 3.904 on 4 and 58 DF,  p-value: 0.007106
 
 ```
 
-### Remark:
+•	Firm Specific-Variable 1: (LEV) Leverage = Total Assets / Total Equity
+•	Firm Specific-Variable 2: (MM)  Maturity Mismatch = Short term Debt / Total liabilities
+•	Firm Specific-Variable 3: (SIZE) Size = Log(Total Book Equity)
+•	Firm Specific-Variable 4: (MTB) Market-to-book = Market Value of Total Equity / Book Value of Total Equity
+
+
+### Remarks:
 
 The above example demonstrates that the aggregated firm characteristics, estimated using within-firms means of the individual firm-specific characteristics, do not have explanatory power throughout the monitoring period. During periods of increased volatility and market exuberance, these variables seem that they are not particularly helpful in explaining the induced centrality obtained from the graph structure. Specifically, this could be a preliminary indication of ommitted variables such as macroeconomic and financial conditions, which would have additional explanatory power especially during periods of a financial crisis. Furthermore, since these preliminary estimations obtained from the static regressions show the presence of changing dynamics and temporal dependence, a suitable modeling approach for the generated set of variables will be to implement a Dynamic Panel Data Model.     
 
@@ -369,7 +375,7 @@ V5  0  1  0  1  0
 
 ```
 
-### Remarks
+### Remarks:
 
 - Linear Granger causality as first introduced by Granger (1969, 1980) has been further tested in various frameworks (e.g., VAR(p) models). Specifically, let two time series be $Y_{i,t}$ and $Y_{j,t}$, for $t = 1,...,T$ with the corresponding information set available at time $t-1$ be $I_{t-1} \equiv ( I_{i, t-1}, I_{j, t-1} )$. Then we say that if there are enough statistical evidence to support the hypothesis 
 
