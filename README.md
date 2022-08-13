@@ -188,6 +188,8 @@ $$ c_t = \delta_0 + \boldsymbol{\delta}_1^{\prime} \boldsymbol{f}_t + u_t.$$
 
 ```R
 
+# Closeness centrality
+
 Call:
 lm(formula = cc ~ BS_firm_roll_means)
 
