@@ -188,7 +188,7 @@ $$ c_t = \delta_0 + \boldsymbol{\delta}_1^{\prime} \boldsymbol{f}_t + u_t.$$
 
 ```R
 
-# Closeness centrality
+# Closeness centrality at t = 1 (out-of-sample period)
 
 Call:
 lm(formula = cc ~ BS_firm_roll_means)
@@ -208,6 +208,35 @@ Multiple R-squared:  0.4572,	Adjusted R-squared:  0.4198
 F-statistic: 12.22 on 4 and 58 DF,  p-value: 2.868e-07
 
 ```
+
+```R
+
+# Closeness centrality at t = 25 (out-of-sample period)
+
+Call:
+lm(formula = cc ~ BS_firm_roll_means)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-1.282e-04 -3.412e-05  2.471e-06  3.947e-05  1.083e-04 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)
+(Intercept)         -0.410170   0.302005  -1.358    0.180
+BS_firm_roll_means1  0.005426   0.003783   1.434    0.157
+BS_firm_roll_means2  0.359351   0.246176   1.460    0.150
+BS_firm_roll_means3  0.007726   0.006548   1.180    0.243
+BS_firm_roll_means4  0.044656   0.032651   1.368    0.177
+
+Residual standard error: 5.697e-05 on 58 degrees of freedom
+Multiple R-squared:  0.2121,	Adjusted R-squared:  0.1578 
+F-statistic: 3.904 on 4 and 58 DF,  p-value: 0.007106
+
+```
+
+### Remark:
+
+The above example demonstrates that the aggregated firm characteristics, estimated using within-firms means of the individual firm-specific characteristics, do not have explanatory power throughout the monitoring period. In particular, during periods of increased volatility and market exuberance, these variables seem that they are not particularly helpful in explaining the induced centrality obtained from the graph structure. Specifically, this could be a preliminary indication of ommitted variables such as macroeconomic and financial conditions, which would have additional explanatory power especially during periods of a financial crisis.    
 
 ## Assignment 1
 
