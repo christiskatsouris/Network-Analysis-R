@@ -235,6 +235,11 @@ F-statistic: 3.904 on 4 and 58 DF,  p-value: 0.007106
 -	Firm Specific-Variable 3: (SIZE) Size = Log(Total Book Equity)
 -	Firm Specific-Variable 4: (MTB) Market-to-book = Market Value of Total Equity / Book Value of Total Equity
 
+1.	Maturity mismatch appears to have a negative sign (negative effect) on closeness centrality (most of the times). For example, this can be interpreted that there is a negative statistical significant relation between maturity mismatch and centrality of assets (as it is measured by closeness centrality). 
+
+2.	Leverage appears to have a positive sign (positive effect) on stock centrality. In other words, the higher the leverage of the firm the higher the centrality of the particular financial institution. 
+
+3.	Size appears to have ambiguous effects on the stock centrality. In other words, in certain cases appears to be not statistical significant and in other cases statistical significant with either positive or negative sign.  
 
 ### Remarks:
 
