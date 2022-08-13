@@ -178,6 +178,36 @@ $$ w_t = \alpha + \beta c_t + \gamma \sigma_t + \epsilon_t.$$
 # Examples in R on Firm Centrality and Portfolio Performance
 
 
+```
+
+### Centrality Measure on Firm Characteristics
+
+In this case, we focus on the induced graph topology, as a measure of financial connectedness, on a given 'snapshot window' (i.e., a static model that corresponds to a specific time within the out-of-sample period). From the statistics point of view, the response variable is endogenously generated from the network structure, based on the corresponding adjacency matrix, estimated from the risk matrix proposed by Katsouris (2021). Then, the explanatory variables correspond to the firm characteristics (four different variables or factors) that can explain overall firm performance and fitness.   
+
+$$ c_t = \alpha + \boldsymbol{\beta}^{\prime} \boldsymbol{f}_t + u_t.$$
+
+```R
+
+Call:
+lm(formula = cc ~ BS_firm_roll_means)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-1.104e-04 -2.700e-05 -7.586e-06  3.193e-05  8.321e-05 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          0.446423   0.159877   2.792 0.007077 ** 
+BS_firm_roll_means1 -0.010590   0.002903  -3.648 0.000568 ***
+BS_firm_roll_means2  0.253659   0.069666   3.641 0.000580 ***
+BS_firm_roll_means3 -0.006650   0.002878  -2.311 0.024410 *  
+BS_firm_roll_means4 -0.028810   0.011109  -2.593 0.012008 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.068e-05 on 58 degrees of freedom
+Multiple R-squared:  0.4572,	Adjusted R-squared:  0.4198 
+F-statistic: 12.22 on 4 and 58 DF,  p-value: 2.868e-07
 
 ```
 
