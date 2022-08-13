@@ -168,7 +168,7 @@ A related example from financial economics is to investigate the relation betwee
 
 A second aspect related to this stream of literature, focuses more on the financial theory side of things and more specifically how firm structure (i.e., related firm organization of any form) affects both network centrality as well as investment performance (see, Rossi et al. (2018) and Larckeret al. (2013)). Furthermore, considering that firm organization theory has been developed based on discussions that provide a parallelism of decision making to how the human brain works (related literature is beyond the scope of this teaching page), then one might even consider a related neural network application to investigate the sensitivity of the 'operating environment' (i.e., decision making in organizations in the case of firm theory versus the structural/underline features of the neural network), to out-of-sample performance (similar to the portfolio performance using a forecasting scheme). A related study that explores this concept using a formal statistical framework with neural networks is proposed by [Mancini et al. (2021b)](https://www.sciencedirect.com/science/article/pii/S0893608021003257).    
 
-### Optimal Portfolio weights on Centrality Regressions
+### Regressions A: Optimal Portfolio weights on Centrality and Volatility
  
 $$ w_t = \alpha + \beta c_t + \gamma \sigma_t + \epsilon_t.$$
 
@@ -180,7 +180,7 @@ $$ w_t = \alpha + \beta c_t + \gamma \sigma_t + \epsilon_t.$$
 
 ```
 
-### Centrality Measure on Firm Characteristics
+### Regressions B: Centrality Measure on Firm Characteristics 
 
 In this case, we focus on the induced graph topology, as a measure of financial connectedness, on a given 'snapshot window' (i.e., a static model that corresponds to a specific time within the out-of-sample period). From the statistics point of view, the response variable is endogenously generated from the network structure, based on the corresponding adjacency matrix, estimated from the risk matrix proposed by Katsouris (2021). Then, the explanatory variables correspond to the firm characteristics (four different variables or factors) that can explain overall firm performance and fitness.   
 
